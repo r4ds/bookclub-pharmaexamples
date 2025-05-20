@@ -11,7 +11,7 @@ As we read, we are producing [slides for the book](https://dslc.io/pharmaverse).
 
 If you would like to present, please see the sign-up sheet for your cohort (linked below, and pinned in the [#book_club-pharmaverse](https://dslcio.slack.com/archives/C087BE6CD45) channel on Slack)!
 
-- [Cohort 1](https://docs.google.com/spreadsheets/d/1U3Jj4WovLDBvf0dSoDBetLd_qMoHO9JrHAHI9PgGGnE/edit?usp=sharing) (started 2025-06-02, facilitated by Priyanka Gagneja): [Mondays, 11:00 AM CST/CDT](https://www.timeanddate.com/worldclock/converter.html?iso=20250602T160000&p1=24&p2=179&p3=1440) | [meeting videos](https://www.youtube.com/playlist?list=PL3x6DOfs2NGiALvNSUj9f8I3s-L1JPlrC)
+- [Cohort 1](https://docs.google.com/spreadsheets/d/116wizlsVOW6dwp7Rk6yfBpembvgdRnCqtk7qOiUK3sk/edit?usp=sharing) (started 2025-06-02, facilitated by Priyanka Gagneja): [Mondays, 11:00 AM CST/CDT](https://www.timeanddate.com/worldclock/converter.html?iso=20250602T160000&p1=24&p2=179&p3=1440) | [meeting videos](https://www.youtube.com/playlist?list=PL3x6DOfs2NGiALvNSUj9f8I3s-L1JPlrC)
 
 <hr>
 
