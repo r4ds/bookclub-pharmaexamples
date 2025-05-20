@@ -1,0 +1,71 @@
+project:
+  type: website
+
+website:
+  title: "Pharmaverse Examples Book Club"
+  sidebar:
+    style: "docked"
+    search: true
+    tools:
+      - icon: github
+        href: https://github.com/r4ds/bookclub-pharmaexamples
+      - icon: youtube
+        href: https://www.youtube.com/playlist?list=PL3x6DOfs2NGiALvNSUj9f8I3s-L1JPlrC
+      - icon: mastodon
+        href: https://fosstodon.org/@DSLC
+      - icon: linkedin
+        href: https://www.linkedin.com/company/dslc-io
+    contents:
+      - index.qmd
+      - file: slides/00-club_intro.qmd
+        target: pharmaverse_club-club_intro
+
+      - section: "Introduction"
+        contents:
+          - file: slides/running_examples.qmd
+            target: pharmaverse_club-running_examples
+      - section: "ADaM"
+        contents:
+          - file: slides/ADSL.qmd
+            target: pharmaverse_club-ADSL
+          - file: slides/ADPC.qmd
+            target: pharmaverse_club-ADPC
+          - file: slides/ADPPK.qmd
+            target: pharmaverse_club-ADPPK
+          - file: slides/ADRS.qmd
+            target: pharmaverse_club-ADRS
+          - file: slides/ADTTE.qmd
+            target: pharmaverse_club-ADTTE
+          - file: slides/ADVS.qmd
+            target: pharmaverse_club-ADVS
+          - file: slides/ADAE.qmd
+            target: pharmaverse_club-ADAE
+      - section: "TLG"
+        contents:
+          - file: slides/demographic_table.qmd
+            target: pharmaverse_club-demographic_table
+          - file: slides/adverse_events.qmd
+            target: pharmaverse_club-adverse_events
+          - file: slides/pharmacokinetic.qmd
+            target: pharmaverse_club-pharmacokinetic
+      - section: "Interactive"
+        contents:
+          - file: slides/teal_applications.qmd
+            target: pharmaverse_club-teal_applications
+      - section: "Logs"
+        contents:
+          - file: slides/difference_betweens_logs.qmd
+            target: pharmaverse_club-difference_betweens_logs
+      - section: "eSubmission"
+        contents:
+          - file: slides/esubmission.qmd
+            target: pharmaverse_club-esubmission
+
+format:
+  html:
+    theme:
+      dark: darkly
+      light: flatly
+    css: styles.css
+    toc: false
+    link-external-newwindow: true
