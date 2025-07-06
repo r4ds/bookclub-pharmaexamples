@@ -1,0 +1,167 @@
+---
+engine: knitr
+title: "BDS"
+---
+
+# What is BDS?
+
+- **BDS** = Basic Data Structure
+- A flexible ADaM format used for most subject-level analysis datasets
+- Key features:
+  - One record per subject, parameter, and timepoint
+  - Standardized variables: `PARAMCD`, `AVAL`, `ADY`, `TRTP`, etc.
+  - Derived from SDTM + ADSL
+
+---
+
+# BDS Subtypes
+
+BDS is used for different analysis goals:
+
+::: nonincremental
+| Subtype          | Purpose                            | Examples         |
+|------------------|-------------------------------------|------------------|
+| Findings         | Repeated measurements               | ADVS, ADLB, ADPC |
+| Exposure         | Treatment summaries                 | ADEX             |
+| Time-to-Event    | Event durations and censoring       | ADTTE            |
+| Response         | Categorical clinical outcomes        | ADRS             |
+| PK Parameters    | Derived pharmacokinetic values      | ADPPK            |
+:::
+
+All share the same core structure, adapted for their purpose.
+
+---
+
+# Common BDS Datasets
+
+## ADPC – PK Concentrations
+
+- Based on SDTM PC domain
+- Measures drug levels in biofluids (e.g. plasma)
+- Used in non-compartmental PK analysis
+
+## ADPPK – PK Parameters
+
+- Based on ADPC results
+- Derived AUC, Cmax, Tmax, etc.
+- Used for dose-response modeling
+
+## ADRS – Response Data
+
+- Derived from RS, TU, TR domains
+- Categorical outcomes: CR, PR, SD, PD
+- Often used in oncology
+
+## ADTTE – Time to Event
+
+- Based on ADSL and AE/DS/VS events
+- Used for endpoints like OS, PFS, time to death
+- Key variables: `AVAL`, `CNSR`, `STARTDT`, `ADT`
+
+## ADVS – Vital Signs
+
+- Based on SDTM VS
+- Derives BMI, MAP, etc.
+- Used in safety summaries
+
+---
+
+# Variable Types in BDS
+
+We group derived variables by **purpose**:
+
+- Timing
+- Parameter Identification
+- Results
+
+---
+
+## Derived Parameters & Reference Ranges
+
+These variables are used to derive secondary parameters like BMI, or classify results based on reference ranges.
+
+::: nonincremental
+| Variable | Description |
+|----------|-------------|
+| `BMI`, `MAP`, etc. | Derived from base measurements |
+| `ANRLO`, `ANRHI` | Normal limits |
+| `ANRIND` | Low/High/Normal flag |
+| `BNRIND` | Baseline version of ANRIND |
+:::
+
+---
+
+## Baseline & Change, Flags & Filtering
+
+Variables in this group allow for baseline comparisons and identifying relevant records for analysis.
+
+::: nonincremental
+| Variable | Description |
+|----------|-------------|
+| `BASE` | Baseline value |
+| `CHG` | Change from baseline |
+| `PCHG` | Percent change |
+| `ABLFL` | Baseline flag |
+| `BASETYPE` | Type of baseline measurement |
+| `ANL01FL` | Primary analysis record flag |
+| `ASEQ` | Sequence number |
+:::
+
+---
+
+## Treatment Assignment, Categorization & Criteria
+
+These variables classify treatment types and apply clinical thresholds to categorize observations.
+
+::: nonincremental
+| Variable | Description |
+|----------|-------------|
+| `TRTA` | Actual treatment |
+| `TRTP` | Planned treatment |
+| `AVALCATy` | Categorized values |
+| `CRITy`, `CRITyFL`, `CRITyFN` | Threshold logic (e.g., BP > 180) |
+:::
+
+---
+
+## ADSL Merge & New Rows
+
+Derived BDS datasets also pull in subject-level attributes from ADSL, and may create new rows summarizing or imputing data.
+
+- Add subject-level variables from ADSL (e.g. `AGE`, `SEX`, `TRTSDT`)
+- Derive new records (e.g. summary rows, worst value, average across visits)
+
+---
+
+# Hands-On Workshop: BDS – Findings
+
+We will derive a BDS Findings dataset using `{admiral}`.
+
+Link: [https://pharmaverse.github.io/admiral/articles/bds_finding.html](https://pharmaverse.github.io/admiral/articles/bds_finding.html)
+
+Key steps:
+- Read SDTM data
+- Derive `ADT`, `ADY`
+- Assign `PARAMCD`, `PARAM`
+- Derive `AVAL`, `BASE`, `CHG`, `ANL01FL`, etc.
+- Merge with ADSL
+- Add labels and attributes
+
+Repository: [GitHub Code](https://github.com/pharmaverse/admiral/blob/main/vignettes/bds_finding.Rmd)
+
+---
+
+# Other BDS Types Work Similarly
+
+Once you master Findings-type BDS, the rest follow similar logic:
+
+- TTE: uses `CNSR`, event definitions
+- Exposure: aggregates dose/duration from EX
+
+Further examples:
+- [Time-to-Event BDS (ADTTE)](https://pharmaverse.github.io/admiral/cran-release/articles/bds_tte.html)
+- [Exposure BDS](https://pharmaverse.github.io/admiral/articles/bds_exposure.html)
+
+---
+
+# Questions?

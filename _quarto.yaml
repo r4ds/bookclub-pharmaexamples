@@ -28,16 +28,8 @@ website:
         contents:
           - file: slides/ADSL.qmd
             target: pharmaverse_club-ADSL
-          - file: slides/ADPC.qmd
-            target: pharmaverse_club-ADPC
-          - file: slides/ADPPK.qmd
-            target: pharmaverse_club-ADPPK
-          - file: slides/ADRS.qmd
-            target: pharmaverse_club-ADRS
-          - file: slides/ADTTE.qmd
-            target: pharmaverse_club-ADTTE
-          - file: slides/ADVS.qmd
-            target: pharmaverse_club-ADVS
+          - file: slides/BDS.qmd
+            target: pharmaverse_club-BDS
           - file: slides/ADAE.qmd
             target: pharmaverse_club-ADAE
       - section: "TLG"
