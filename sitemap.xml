@@ -2,66 +2,50 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://r4ds.github.io/bookclub-pharmaexamples/index.html</loc>
-    <lastmod>2025-05-20T11:25:17.852Z</lastmod>
-  </url>
-  <url>
-    <loc>https://r4ds.github.io/bookclub-pharmaexamples/slides/running_examples.html</loc>
-    <lastmod>2025-05-20T11:25:17.853Z</lastmod>
-  </url>
-  <url>
-    <loc>https://r4ds.github.io/bookclub-pharmaexamples/slides/ADTTE.html</loc>
-    <lastmod>2025-05-20T11:25:17.852Z</lastmod>
-  </url>
-  <url>
-    <loc>https://r4ds.github.io/bookclub-pharmaexamples/slides/demographic_table.html</loc>
-    <lastmod>2025-05-20T11:25:17.853Z</lastmod>
-  </url>
-  <url>
-    <loc>https://r4ds.github.io/bookclub-pharmaexamples/slides/ADPPK.html</loc>
-    <lastmod>2025-05-20T11:25:17.852Z</lastmod>
-  </url>
-  <url>
-    <loc>https://r4ds.github.io/bookclub-pharmaexamples/slides/ADVS.html</loc>
-    <lastmod>2025-05-20T11:25:17.852Z</lastmod>
+    <lastmod>2025-07-07T15:14:37.341Z</lastmod>
   </url>
   <url>
     <loc>https://r4ds.github.io/bookclub-pharmaexamples/slides/00-club_intro.html</loc>
-    <lastmod>2025-05-20T11:25:17.852Z</lastmod>
-  </url>
-  <url>
-    <loc>https://r4ds.github.io/bookclub-pharmaexamples/slides/difference_betweens_logs.html</loc>
-    <lastmod>2025-05-20T11:25:17.853Z</lastmod>
-  </url>
-  <url>
-    <loc>https://r4ds.github.io/bookclub-pharmaexamples/slides/ADPC.html</loc>
-    <lastmod>2025-05-20T11:25:17.852Z</lastmod>
-  </url>
-  <url>
-    <loc>https://r4ds.github.io/bookclub-pharmaexamples/slides/ADAE.html</loc>
-    <lastmod>2025-05-20T11:25:17.852Z</lastmod>
-  </url>
-  <url>
-    <loc>https://r4ds.github.io/bookclub-pharmaexamples/slides/ADSL.html</loc>
-    <lastmod>2025-05-20T11:25:17.852Z</lastmod>
-  </url>
-  <url>
-    <loc>https://r4ds.github.io/bookclub-pharmaexamples/slides/esubmission.html</loc>
-    <lastmod>2025-05-20T11:25:17.853Z</lastmod>
+    <lastmod>2025-07-07T15:14:37.341Z</lastmod>
   </url>
   <url>
     <loc>https://r4ds.github.io/bookclub-pharmaexamples/slides/pharmacokinetic.html</loc>
-    <lastmod>2025-05-20T11:25:17.853Z</lastmod>
-  </url>
-  <url>
-    <loc>https://r4ds.github.io/bookclub-pharmaexamples/slides/teal_applications.html</loc>
-    <lastmod>2025-05-20T11:25:17.853Z</lastmod>
-  </url>
-  <url>
-    <loc>https://r4ds.github.io/bookclub-pharmaexamples/slides/ADRS.html</loc>
-    <lastmod>2025-05-20T11:25:17.852Z</lastmod>
+    <lastmod>2025-07-07T15:14:37.342Z</lastmod>
   </url>
   <url>
     <loc>https://r4ds.github.io/bookclub-pharmaexamples/slides/adverse_events.html</loc>
-    <lastmod>2025-05-20T11:25:17.852Z</lastmod>
+    <lastmod>2025-07-07T15:14:37.342Z</lastmod>
+  </url>
+  <url>
+    <loc>https://r4ds.github.io/bookclub-pharmaexamples/slides/esubmission.html</loc>
+    <lastmod>2025-07-07T15:14:37.342Z</lastmod>
+  </url>
+  <url>
+    <loc>https://r4ds.github.io/bookclub-pharmaexamples/slides/ADAE.html</loc>
+    <lastmod>2025-07-07T15:14:37.341Z</lastmod>
+  </url>
+  <url>
+    <loc>https://r4ds.github.io/bookclub-pharmaexamples/slides/BDS.html</loc>
+    <lastmod>2025-07-07T15:14:37.342Z</lastmod>
+  </url>
+  <url>
+    <loc>https://r4ds.github.io/bookclub-pharmaexamples/slides/teal_applications.html</loc>
+    <lastmod>2025-07-07T15:14:37.342Z</lastmod>
+  </url>
+  <url>
+    <loc>https://r4ds.github.io/bookclub-pharmaexamples/slides/ADSL.html</loc>
+    <lastmod>2025-07-07T15:14:37.342Z</lastmod>
+  </url>
+  <url>
+    <loc>https://r4ds.github.io/bookclub-pharmaexamples/slides/difference_betweens_logs.html</loc>
+    <lastmod>2025-07-07T15:14:37.342Z</lastmod>
+  </url>
+  <url>
+    <loc>https://r4ds.github.io/bookclub-pharmaexamples/slides/running_examples.html</loc>
+    <lastmod>2025-07-07T15:14:37.342Z</lastmod>
+  </url>
+  <url>
+    <loc>https://r4ds.github.io/bookclub-pharmaexamples/slides/demographic_table.html</loc>
+    <lastmod>2025-07-07T15:14:37.342Z</lastmod>
   </url>
 </urlset>

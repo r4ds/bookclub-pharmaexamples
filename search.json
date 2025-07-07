@@ -10,226 +10,6 @@
     ]
   },
   {
-    "objectID": "slides/running_examples.html#slide",
-    "href": "slides/running_examples.html#slide",
-    "title": "Running Examples",
-    "section": "SLIDE",
-    "text": "SLIDE\n\nDENOTE MAJOR SECTIONS WITH # TITLE (eg # Installation)\nADD INDIVIDUAL SLIDES WITH ## (eg ## rustup on Linux/macOS)\nKEEP THEM RELATIVELY SLIDE-LIKE; THESE ARE NOTES, NOT THE BOOK ITSELF.",
-    "crumbs": [
-      "Introduction",
-      "Running Examples"
-    ]
-  },
-  {
-    "objectID": "slides/running_examples.html#slide-1",
-    "href": "slides/running_examples.html#slide-1",
-    "title": "Running Examples",
-    "section": "SLIDE",
-    "text": "SLIDE",
-    "crumbs": [
-      "Introduction",
-      "Running Examples"
-    ]
-  },
-  {
-    "objectID": "slides/running_examples.html#slide-2",
-    "href": "slides/running_examples.html#slide-2",
-    "title": "Running Examples",
-    "section": "SLIDE",
-    "text": "SLIDE",
-    "crumbs": [
-      "Introduction",
-      "Running Examples"
-    ]
-  },
-  {
-    "objectID": "slides/running_examples.html#slide-3",
-    "href": "slides/running_examples.html#slide-3",
-    "title": "Running Examples",
-    "section": "SLIDE",
-    "text": "SLIDE",
-    "crumbs": [
-      "Introduction",
-      "Running Examples"
-    ]
-  },
-  {
-    "objectID": "slides/ADTTE.html#slide",
-    "href": "slides/ADTTE.html#slide",
-    "title": "ADTTE",
-    "section": "SLIDE",
-    "text": "SLIDE\n\nDENOTE MAJOR SECTIONS WITH # TITLE (eg # Installation)\nADD INDIVIDUAL SLIDES WITH ## (eg ## rustup on Linux/macOS)\nKEEP THEM RELATIVELY SLIDE-LIKE; THESE ARE NOTES, NOT THE BOOK ITSELF.",
-    "crumbs": [
-      "ADaM",
-      "ADTTE"
-    ]
-  },
-  {
-    "objectID": "slides/ADTTE.html#slide-1",
-    "href": "slides/ADTTE.html#slide-1",
-    "title": "ADTTE",
-    "section": "SLIDE",
-    "text": "SLIDE",
-    "crumbs": [
-      "ADaM",
-      "ADTTE"
-    ]
-  },
-  {
-    "objectID": "slides/ADTTE.html#slide-2",
-    "href": "slides/ADTTE.html#slide-2",
-    "title": "ADTTE",
-    "section": "SLIDE",
-    "text": "SLIDE",
-    "crumbs": [
-      "ADaM",
-      "ADTTE"
-    ]
-  },
-  {
-    "objectID": "slides/ADTTE.html#slide-3",
-    "href": "slides/ADTTE.html#slide-3",
-    "title": "ADTTE",
-    "section": "SLIDE",
-    "text": "SLIDE",
-    "crumbs": [
-      "ADaM",
-      "ADTTE"
-    ]
-  },
-  {
-    "objectID": "slides/demographic_table.html#slide",
-    "href": "slides/demographic_table.html#slide",
-    "title": "Demographic Table",
-    "section": "SLIDE",
-    "text": "SLIDE\n\nDENOTE MAJOR SECTIONS WITH # TITLE (eg # Installation)\nADD INDIVIDUAL SLIDES WITH ## (eg ## rustup on Linux/macOS)\nKEEP THEM RELATIVELY SLIDE-LIKE; THESE ARE NOTES, NOT THE BOOK ITSELF.",
-    "crumbs": [
-      "TLG",
-      "Demographic Table"
-    ]
-  },
-  {
-    "objectID": "slides/demographic_table.html#slide-1",
-    "href": "slides/demographic_table.html#slide-1",
-    "title": "Demographic Table",
-    "section": "SLIDE",
-    "text": "SLIDE",
-    "crumbs": [
-      "TLG",
-      "Demographic Table"
-    ]
-  },
-  {
-    "objectID": "slides/demographic_table.html#slide-2",
-    "href": "slides/demographic_table.html#slide-2",
-    "title": "Demographic Table",
-    "section": "SLIDE",
-    "text": "SLIDE",
-    "crumbs": [
-      "TLG",
-      "Demographic Table"
-    ]
-  },
-  {
-    "objectID": "slides/demographic_table.html#slide-3",
-    "href": "slides/demographic_table.html#slide-3",
-    "title": "Demographic Table",
-    "section": "SLIDE",
-    "text": "SLIDE",
-    "crumbs": [
-      "TLG",
-      "Demographic Table"
-    ]
-  },
-  {
-    "objectID": "slides/ADPPK.html#slide",
-    "href": "slides/ADPPK.html#slide",
-    "title": "ADPPK",
-    "section": "SLIDE",
-    "text": "SLIDE\n\nDENOTE MAJOR SECTIONS WITH # TITLE (eg # Installation)\nADD INDIVIDUAL SLIDES WITH ## (eg ## rustup on Linux/macOS)\nKEEP THEM RELATIVELY SLIDE-LIKE; THESE ARE NOTES, NOT THE BOOK ITSELF.",
-    "crumbs": [
-      "ADaM",
-      "ADPPK"
-    ]
-  },
-  {
-    "objectID": "slides/ADPPK.html#slide-1",
-    "href": "slides/ADPPK.html#slide-1",
-    "title": "ADPPK",
-    "section": "SLIDE",
-    "text": "SLIDE",
-    "crumbs": [
-      "ADaM",
-      "ADPPK"
-    ]
-  },
-  {
-    "objectID": "slides/ADPPK.html#slide-2",
-    "href": "slides/ADPPK.html#slide-2",
-    "title": "ADPPK",
-    "section": "SLIDE",
-    "text": "SLIDE",
-    "crumbs": [
-      "ADaM",
-      "ADPPK"
-    ]
-  },
-  {
-    "objectID": "slides/ADPPK.html#slide-3",
-    "href": "slides/ADPPK.html#slide-3",
-    "title": "ADPPK",
-    "section": "SLIDE",
-    "text": "SLIDE",
-    "crumbs": [
-      "ADaM",
-      "ADPPK"
-    ]
-  },
-  {
-    "objectID": "slides/ADVS.html#slide",
-    "href": "slides/ADVS.html#slide",
-    "title": "ADVS",
-    "section": "SLIDE",
-    "text": "SLIDE\n\nDENOTE MAJOR SECTIONS WITH # TITLE (eg # Installation)\nADD INDIVIDUAL SLIDES WITH ## (eg ## rustup on Linux/macOS)\nKEEP THEM RELATIVELY SLIDE-LIKE; THESE ARE NOTES, NOT THE BOOK ITSELF.",
-    "crumbs": [
-      "ADaM",
-      "ADVS"
-    ]
-  },
-  {
-    "objectID": "slides/ADVS.html#slide-1",
-    "href": "slides/ADVS.html#slide-1",
-    "title": "ADVS",
-    "section": "SLIDE",
-    "text": "SLIDE",
-    "crumbs": [
-      "ADaM",
-      "ADVS"
-    ]
-  },
-  {
-    "objectID": "slides/ADVS.html#slide-2",
-    "href": "slides/ADVS.html#slide-2",
-    "title": "ADVS",
-    "section": "SLIDE",
-    "text": "SLIDE",
-    "crumbs": [
-      "ADaM",
-      "ADVS"
-    ]
-  },
-  {
-    "objectID": "slides/ADVS.html#slide-3",
-    "href": "slides/ADVS.html#slide-3",
-    "title": "ADVS",
-    "section": "SLIDE",
-    "text": "SLIDE",
-    "crumbs": [
-      "ADaM",
-      "ADVS"
-    ]
-  },
-  {
     "objectID": "slides/00-club_intro.html#book-club-meetings",
     "href": "slides/00-club_intro.html#book-club-meetings",
     "title": "Club Meetings",
@@ -257,226 +37,6 @@
     "text": "Learning objectives (LOs)\n\nStudents who study with LOs in mind retain more.\nTips:\n\nThink “After today’s session, you will be able to {LO}”.\nVery roughly 1 per heading.",
     "crumbs": [
       "Club Meetings"
-    ]
-  },
-  {
-    "objectID": "slides/difference_betweens_logs.html#slide",
-    "href": "slides/difference_betweens_logs.html#slide",
-    "title": "The Difference Between logr, logrx, and whirl",
-    "section": "SLIDE",
-    "text": "SLIDE\n\nDENOTE MAJOR SECTIONS WITH # TITLE (eg # Installation)\nADD INDIVIDUAL SLIDES WITH ## (eg ## rustup on Linux/macOS)\nKEEP THEM RELATIVELY SLIDE-LIKE; THESE ARE NOTES, NOT THE BOOK ITSELF.",
-    "crumbs": [
-      "Logs",
-      "The Difference Between logr, logrx, and whirl"
-    ]
-  },
-  {
-    "objectID": "slides/difference_betweens_logs.html#slide-1",
-    "href": "slides/difference_betweens_logs.html#slide-1",
-    "title": "The Difference Between logr, logrx, and whirl",
-    "section": "SLIDE",
-    "text": "SLIDE",
-    "crumbs": [
-      "Logs",
-      "The Difference Between logr, logrx, and whirl"
-    ]
-  },
-  {
-    "objectID": "slides/difference_betweens_logs.html#slide-2",
-    "href": "slides/difference_betweens_logs.html#slide-2",
-    "title": "The Difference Between logr, logrx, and whirl",
-    "section": "SLIDE",
-    "text": "SLIDE",
-    "crumbs": [
-      "Logs",
-      "The Difference Between logr, logrx, and whirl"
-    ]
-  },
-  {
-    "objectID": "slides/difference_betweens_logs.html#slide-3",
-    "href": "slides/difference_betweens_logs.html#slide-3",
-    "title": "The Difference Between logr, logrx, and whirl",
-    "section": "SLIDE",
-    "text": "SLIDE",
-    "crumbs": [
-      "Logs",
-      "The Difference Between logr, logrx, and whirl"
-    ]
-  },
-  {
-    "objectID": "slides/ADPC.html#slide",
-    "href": "slides/ADPC.html#slide",
-    "title": "ADPC",
-    "section": "SLIDE",
-    "text": "SLIDE\n\nDENOTE MAJOR SECTIONS WITH # TITLE (eg # Installation)\nADD INDIVIDUAL SLIDES WITH ## (eg ## rustup on Linux/macOS)\nKEEP THEM RELATIVELY SLIDE-LIKE; THESE ARE NOTES, NOT THE BOOK ITSELF.",
-    "crumbs": [
-      "ADaM",
-      "ADPC"
-    ]
-  },
-  {
-    "objectID": "slides/ADPC.html#slide-1",
-    "href": "slides/ADPC.html#slide-1",
-    "title": "ADPC",
-    "section": "SLIDE",
-    "text": "SLIDE",
-    "crumbs": [
-      "ADaM",
-      "ADPC"
-    ]
-  },
-  {
-    "objectID": "slides/ADPC.html#slide-2",
-    "href": "slides/ADPC.html#slide-2",
-    "title": "ADPC",
-    "section": "SLIDE",
-    "text": "SLIDE",
-    "crumbs": [
-      "ADaM",
-      "ADPC"
-    ]
-  },
-  {
-    "objectID": "slides/ADPC.html#slide-3",
-    "href": "slides/ADPC.html#slide-3",
-    "title": "ADPC",
-    "section": "SLIDE",
-    "text": "SLIDE",
-    "crumbs": [
-      "ADaM",
-      "ADPC"
-    ]
-  },
-  {
-    "objectID": "slides/ADAE.html#slide",
-    "href": "slides/ADAE.html#slide",
-    "title": "ADAE",
-    "section": "SLIDE",
-    "text": "SLIDE\n\nDENOTE MAJOR SECTIONS WITH # TITLE (eg # Installation)\nADD INDIVIDUAL SLIDES WITH ## (eg ## rustup on Linux/macOS)\nKEEP THEM RELATIVELY SLIDE-LIKE; THESE ARE NOTES, NOT THE BOOK ITSELF.",
-    "crumbs": [
-      "ADaM",
-      "ADAE"
-    ]
-  },
-  {
-    "objectID": "slides/ADAE.html#slide-1",
-    "href": "slides/ADAE.html#slide-1",
-    "title": "ADAE",
-    "section": "SLIDE",
-    "text": "SLIDE",
-    "crumbs": [
-      "ADaM",
-      "ADAE"
-    ]
-  },
-  {
-    "objectID": "slides/ADAE.html#slide-2",
-    "href": "slides/ADAE.html#slide-2",
-    "title": "ADAE",
-    "section": "SLIDE",
-    "text": "SLIDE",
-    "crumbs": [
-      "ADaM",
-      "ADAE"
-    ]
-  },
-  {
-    "objectID": "slides/ADAE.html#slide-3",
-    "href": "slides/ADAE.html#slide-3",
-    "title": "ADAE",
-    "section": "SLIDE",
-    "text": "SLIDE",
-    "crumbs": [
-      "ADaM",
-      "ADAE"
-    ]
-  },
-  {
-    "objectID": "slides/ADSL.html#slide",
-    "href": "slides/ADSL.html#slide",
-    "title": "ADSL",
-    "section": "SLIDE",
-    "text": "SLIDE\n\nDENOTE MAJOR SECTIONS WITH # TITLE (eg # Installation)\nADD INDIVIDUAL SLIDES WITH ## (eg ## rustup on Linux/macOS)\nKEEP THEM RELATIVELY SLIDE-LIKE; THESE ARE NOTES, NOT THE BOOK ITSELF.",
-    "crumbs": [
-      "ADaM",
-      "ADSL"
-    ]
-  },
-  {
-    "objectID": "slides/ADSL.html#slide-1",
-    "href": "slides/ADSL.html#slide-1",
-    "title": "ADSL",
-    "section": "SLIDE",
-    "text": "SLIDE",
-    "crumbs": [
-      "ADaM",
-      "ADSL"
-    ]
-  },
-  {
-    "objectID": "slides/ADSL.html#slide-2",
-    "href": "slides/ADSL.html#slide-2",
-    "title": "ADSL",
-    "section": "SLIDE",
-    "text": "SLIDE",
-    "crumbs": [
-      "ADaM",
-      "ADSL"
-    ]
-  },
-  {
-    "objectID": "slides/ADSL.html#slide-3",
-    "href": "slides/ADSL.html#slide-3",
-    "title": "ADSL",
-    "section": "SLIDE",
-    "text": "SLIDE",
-    "crumbs": [
-      "ADaM",
-      "ADSL"
-    ]
-  },
-  {
-    "objectID": "slides/esubmission.html#slide",
-    "href": "slides/esubmission.html#slide",
-    "title": "eSubmission",
-    "section": "SLIDE",
-    "text": "SLIDE\n\nDENOTE MAJOR SECTIONS WITH # TITLE (eg # Installation)\nADD INDIVIDUAL SLIDES WITH ## (eg ## rustup on Linux/macOS)\nKEEP THEM RELATIVELY SLIDE-LIKE; THESE ARE NOTES, NOT THE BOOK ITSELF.",
-    "crumbs": [
-      "eSubmission",
-      "eSubmission"
-    ]
-  },
-  {
-    "objectID": "slides/esubmission.html#slide-1",
-    "href": "slides/esubmission.html#slide-1",
-    "title": "eSubmission",
-    "section": "SLIDE",
-    "text": "SLIDE",
-    "crumbs": [
-      "eSubmission",
-      "eSubmission"
-    ]
-  },
-  {
-    "objectID": "slides/esubmission.html#slide-2",
-    "href": "slides/esubmission.html#slide-2",
-    "title": "eSubmission",
-    "section": "SLIDE",
-    "text": "SLIDE",
-    "crumbs": [
-      "eSubmission",
-      "eSubmission"
-    ]
-  },
-  {
-    "objectID": "slides/esubmission.html#slide-3",
-    "href": "slides/esubmission.html#slide-3",
-    "title": "eSubmission",
-    "section": "SLIDE",
-    "text": "SLIDE",
-    "crumbs": [
-      "eSubmission",
-      "eSubmission"
     ]
   },
   {
@@ -524,6 +84,314 @@
     ]
   },
   {
+    "objectID": "slides/adverse_events.html#slide",
+    "href": "slides/adverse_events.html#slide",
+    "title": "Adverse Events",
+    "section": "SLIDE",
+    "text": "SLIDE\n\nDENOTE MAJOR SECTIONS WITH # TITLE (eg # Installation)\nADD INDIVIDUAL SLIDES WITH ## (eg ## rustup on Linux/macOS)\nKEEP THEM RELATIVELY SLIDE-LIKE; THESE ARE NOTES, NOT THE BOOK ITSELF.",
+    "crumbs": [
+      "TLG",
+      "Adverse Events"
+    ]
+  },
+  {
+    "objectID": "slides/adverse_events.html#slide-1",
+    "href": "slides/adverse_events.html#slide-1",
+    "title": "Adverse Events",
+    "section": "SLIDE",
+    "text": "SLIDE",
+    "crumbs": [
+      "TLG",
+      "Adverse Events"
+    ]
+  },
+  {
+    "objectID": "slides/adverse_events.html#slide-2",
+    "href": "slides/adverse_events.html#slide-2",
+    "title": "Adverse Events",
+    "section": "SLIDE",
+    "text": "SLIDE",
+    "crumbs": [
+      "TLG",
+      "Adverse Events"
+    ]
+  },
+  {
+    "objectID": "slides/adverse_events.html#slide-3",
+    "href": "slides/adverse_events.html#slide-3",
+    "title": "Adverse Events",
+    "section": "SLIDE",
+    "text": "SLIDE",
+    "crumbs": [
+      "TLG",
+      "Adverse Events"
+    ]
+  },
+  {
+    "objectID": "slides/esubmission.html#slide",
+    "href": "slides/esubmission.html#slide",
+    "title": "eSubmission",
+    "section": "SLIDE",
+    "text": "SLIDE\n\nDENOTE MAJOR SECTIONS WITH # TITLE (eg # Installation)\nADD INDIVIDUAL SLIDES WITH ## (eg ## rustup on Linux/macOS)\nKEEP THEM RELATIVELY SLIDE-LIKE; THESE ARE NOTES, NOT THE BOOK ITSELF.",
+    "crumbs": [
+      "eSubmission",
+      "eSubmission"
+    ]
+  },
+  {
+    "objectID": "slides/esubmission.html#slide-1",
+    "href": "slides/esubmission.html#slide-1",
+    "title": "eSubmission",
+    "section": "SLIDE",
+    "text": "SLIDE",
+    "crumbs": [
+      "eSubmission",
+      "eSubmission"
+    ]
+  },
+  {
+    "objectID": "slides/esubmission.html#slide-2",
+    "href": "slides/esubmission.html#slide-2",
+    "title": "eSubmission",
+    "section": "SLIDE",
+    "text": "SLIDE",
+    "crumbs": [
+      "eSubmission",
+      "eSubmission"
+    ]
+  },
+  {
+    "objectID": "slides/esubmission.html#slide-3",
+    "href": "slides/esubmission.html#slide-3",
+    "title": "eSubmission",
+    "section": "SLIDE",
+    "text": "SLIDE",
+    "crumbs": [
+      "eSubmission",
+      "eSubmission"
+    ]
+  },
+  {
+    "objectID": "slides/ADAE.html#slide",
+    "href": "slides/ADAE.html#slide",
+    "title": "ADAE",
+    "section": "SLIDE",
+    "text": "SLIDE\n\nDENOTE MAJOR SECTIONS WITH # TITLE (eg # Installation)\nADD INDIVIDUAL SLIDES WITH ## (eg ## rustup on Linux/macOS)\nKEEP THEM RELATIVELY SLIDE-LIKE; THESE ARE NOTES, NOT THE BOOK ITSELF.",
+    "crumbs": [
+      "ADaM",
+      "ADAE"
+    ]
+  },
+  {
+    "objectID": "slides/ADAE.html#slide-1",
+    "href": "slides/ADAE.html#slide-1",
+    "title": "ADAE",
+    "section": "SLIDE",
+    "text": "SLIDE",
+    "crumbs": [
+      "ADaM",
+      "ADAE"
+    ]
+  },
+  {
+    "objectID": "slides/ADAE.html#slide-2",
+    "href": "slides/ADAE.html#slide-2",
+    "title": "ADAE",
+    "section": "SLIDE",
+    "text": "SLIDE",
+    "crumbs": [
+      "ADaM",
+      "ADAE"
+    ]
+  },
+  {
+    "objectID": "slides/ADAE.html#slide-3",
+    "href": "slides/ADAE.html#slide-3",
+    "title": "ADAE",
+    "section": "SLIDE",
+    "text": "SLIDE",
+    "crumbs": [
+      "ADaM",
+      "ADAE"
+    ]
+  },
+  {
+    "objectID": "slides/BDS.html#adpc-pharmacokinetics-concentrations",
+    "href": "slides/BDS.html#adpc-pharmacokinetics-concentrations",
+    "title": "BDS",
+    "section": "ADPC – Pharmacokinetics Concentrations",
+    "text": "ADPC – Pharmacokinetics Concentrations\n\nBased on SDTM PC (Pharmacokinetics Concentrations) domain\n\nMeasures drug levels in biofluids (e.g. plasma)\n\nUsed in non-compartmental PK analysis",
+    "crumbs": [
+      "ADaM",
+      "BDS"
+    ]
+  },
+  {
+    "objectID": "slides/BDS.html#adppk-pk-parameters",
+    "href": "slides/BDS.html#adppk-pk-parameters",
+    "title": "BDS",
+    "section": "ADPPK – PK Parameters",
+    "text": "ADPPK – PK Parameters\n\nBased on ADPC results\n\nDerived AUC (Area Under Curve), Cmax (Maximum Concentration), Tmax (Time to Max Concentration), etc.\n\nUsed for dose-response modeling",
+    "crumbs": [
+      "ADaM",
+      "BDS"
+    ]
+  },
+  {
+    "objectID": "slides/BDS.html#adrs-response-data",
+    "href": "slides/BDS.html#adrs-response-data",
+    "title": "BDS",
+    "section": "ADRS – Response Data",
+    "text": "ADRS – Response Data\n\nDerived from RS (Disease Response), TU (Tumor Identification), TR (Tumor Results) domains\n\nCategorical outcomes: CR (Complete Response), PR (Partial Response), SD (Stable Disease), PD (Progressive Disease)\n\nOften used in oncology",
+    "crumbs": [
+      "ADaM",
+      "BDS"
+    ]
+  },
+  {
+    "objectID": "slides/BDS.html#adtte-time-to-event",
+    "href": "slides/BDS.html#adtte-time-to-event",
+    "title": "BDS",
+    "section": "ADTTE – Time to Event",
+    "text": "ADTTE – Time to Event\n\nBased on ADSL (Subject-Level) and AE (Adverse Events), DS (Disposition), VS (Vital Signs) events\n\nUsed for endpoints like OS (Overall Survival), PFS (Progression-Free Survival), time to death\n\nKey variables: AVAL, CNSR (Censoring), STARTDT, ADT (Analysis Date)",
+    "crumbs": [
+      "ADaM",
+      "BDS"
+    ]
+  },
+  {
+    "objectID": "slides/BDS.html#advs-vital-signs",
+    "href": "slides/BDS.html#advs-vital-signs",
+    "title": "BDS",
+    "section": "ADVS – Vital Signs",
+    "text": "ADVS – Vital Signs\n\nBased on SDTM VS (Vital Signs) domain\n\nDerives BMI (Body Mass Index), MAP (Mean Arterial Pressure), etc.\n\nUsed in safety summaries",
+    "crumbs": [
+      "ADaM",
+      "BDS"
+    ]
+  },
+  {
+    "objectID": "slides/BDS.html#timing-variables",
+    "href": "slides/BDS.html#timing-variables",
+    "title": "BDS",
+    "section": "Timing Variables",
+    "text": "Timing Variables\nThese variables place each observation in the study timeline and help track when it occurred relative to treatment, visits, or other study milestones.\n\n\n\nVariable\nDescription\nWhy it’s Needed\n\n\n\n\nADT\nAnalysis date\nAnchors timepoint in study\n\n\nADTM\nAnalysis datetime\nAdds time granularity\n\n\nADY\nRelative study day\nFor analysis over time",
+    "crumbs": [
+      "ADaM",
+      "BDS"
+    ]
+  },
+  {
+    "objectID": "slides/BDS.html#timing-variables-1",
+    "href": "slides/BDS.html#timing-variables-1",
+    "title": "BDS",
+    "section": "Timing Variables",
+    "text": "Timing Variables\nThese variables place each observation in the study timeline and help track when it occurred relative to treatment, visits, or other study milestones.\n\n\n\nVariable\nDescription\nWhy it’s Needed\n\n\n\n\nADTF, ATMF\nImputation flags\nTracks incomplete dates\n\n\nAVISIT, AVISITN\nVisit name/number\nSorting & summaries\n\n\nAPHASE, APERIOD\nStudy phase/period\nFor grouping data\n\n\nONTRTFL\nOn-treatment flag\nTreatment window check",
+    "crumbs": [
+      "ADaM",
+      "BDS"
+    ]
+  },
+  {
+    "objectID": "slides/BDS.html#parameter-identification",
+    "href": "slides/BDS.html#parameter-identification",
+    "title": "BDS",
+    "section": "Parameter Identification",
+    "text": "Parameter Identification\nThese variables define what is being measured — each record in BDS must correspond to a unique parameter per subject per timepoint.\n\n\n\nVariable\nDescription\n\n\n\n\nPARAMCD\nShort parameter code\n\n\nPARAM\nFull parameter name\n\n\nPARAMN\nNumeric ID (optional)\n\n\nPARCAT1, PARCAT2\nParameter categories",
+    "crumbs": [
+      "ADaM",
+      "BDS"
+    ]
+  },
+  {
+    "objectID": "slides/BDS.html#result-variables",
+    "href": "slides/BDS.html#result-variables",
+    "title": "BDS",
+    "section": "Result Variables",
+    "text": "Result Variables\nThese variables store the main output of analysis — either numeric results or their character equivalents and categorized forms.\n\n\n\nVariable\nDescription\n\n\n\n\nAVAL\nNumeric result\n\n\nAVALC\nCharacter result\n\n\nAVALCATy\nCategorization (e.g. low/normal/high)",
+    "crumbs": [
+      "ADaM",
+      "BDS"
+    ]
+  },
+  {
+    "objectID": "slides/BDS.html#derived-parameters",
+    "href": "slides/BDS.html#derived-parameters",
+    "title": "BDS",
+    "section": "Derived Parameters",
+    "text": "Derived Parameters\nUsed to compute secondary or composite measurements derived from primary variables, such as BMI or MAP.\n\n\n\nVariable\nDescription\n\n\n\n\nBMI, MAP, etc.\nDerived from base measurements",
+    "crumbs": [
+      "ADaM",
+      "BDS"
+    ]
+  },
+  {
+    "objectID": "slides/BDS.html#reference-ranges",
+    "href": "slides/BDS.html#reference-ranges",
+    "title": "BDS",
+    "section": "Reference Ranges",
+    "text": "Reference Ranges\nThese help classify whether values are within normal clinical limits, often based on lab ranges.\n\n\n\nVariable\nDescription\n\n\n\n\nANRLO, ANRHI\nNormal limits\n\n\nANRIND\nLow/High/Normal flag\n\n\nBNRIND\nBaseline version of ANRIND",
+    "crumbs": [
+      "ADaM",
+      "BDS"
+    ]
+  },
+  {
+    "objectID": "slides/BDS.html#baseline-change",
+    "href": "slides/BDS.html#baseline-change",
+    "title": "BDS",
+    "section": "Baseline & Change",
+    "text": "Baseline & Change\nThese variables allow comparison of on-treatment values to a defined pre-treatment baseline.\n\n\n\nVariable\nDescription\n\n\n\n\nBASE\nBaseline value\n\n\nCHG\nChange from baseline\n\n\nPCHG\nPercent change\n\n\nABLFL\nBaseline flag\n\n\nBASETYPE\nType of baseline measurement",
+    "crumbs": [
+      "ADaM",
+      "BDS"
+    ]
+  },
+  {
+    "objectID": "slides/BDS.html#flags-filtering",
+    "href": "slides/BDS.html#flags-filtering",
+    "title": "BDS",
+    "section": "Flags & Filtering",
+    "text": "Flags & Filtering\nBinary flags are used to identify records relevant to specific analyses or TLGs.\n\n\n\nVariable\nDescription\n\n\n\n\nANL01FL\nPrimary analysis record flag\n\n\nASEQ\nSequence number",
+    "crumbs": [
+      "ADaM",
+      "BDS"
+    ]
+  },
+  {
+    "objectID": "slides/BDS.html#treatment-assignment",
+    "href": "slides/BDS.html#treatment-assignment",
+    "title": "BDS",
+    "section": "Treatment Assignment",
+    "text": "Treatment Assignment\nUsed to categorize subjects by planned and actual treatment arms.\n\n\n\nVariable\nDescription\n\n\n\n\nTRTA\nActual treatment\n\n\nTRTP\nPlanned treatment",
+    "crumbs": [
+      "ADaM",
+      "BDS"
+    ]
+  },
+  {
+    "objectID": "slides/BDS.html#categorization-criteria",
+    "href": "slides/BDS.html#categorization-criteria",
+    "title": "BDS",
+    "section": "Categorization & Criteria",
+    "text": "Categorization & Criteria\nUsed to apply clinical cutoffs or create groupings based on results.\n\n\n\nVariable\nDescription\n\n\n\n\nAVALCATy\nCategorized values\n\n\nCRITy, CRITyFL, CRITyFN\nThreshold logic (e.g., BP &gt; 180)",
+    "crumbs": [
+      "ADaM",
+      "BDS"
+    ]
+  },
+  {
+    "objectID": "slides/BDS.html#adsl-merge-new-rows",
+    "href": "slides/BDS.html#adsl-merge-new-rows",
+    "title": "BDS",
+    "section": "ADSL Merge & New Rows",
+    "text": "ADSL Merge & New Rows\nDerived BDS datasets also pull in subject-level attributes from ADSL, and may create new rows summarizing or imputing data.\n\nAdd subject-level variables from ADSL (e.g. AGE, SEX, TRTSDT)\nDerive new records (e.g. summary rows, worst value, average across visits)",
+    "crumbs": [
+      "ADaM",
+      "BDS"
+    ]
+  },
+  {
     "objectID": "slides/teal_applications.html#slide",
     "href": "slides/teal_applications.html#slide",
     "title": "teal applications",
@@ -568,91 +436,179 @@
     ]
   },
   {
-    "objectID": "slides/ADRS.html#slide",
-    "href": "slides/ADRS.html#slide",
-    "title": "ADRS",
+    "objectID": "slides/ADSL.html#slide",
+    "href": "slides/ADSL.html#slide",
+    "title": "ADSL",
     "section": "SLIDE",
     "text": "SLIDE\n\nDENOTE MAJOR SECTIONS WITH # TITLE (eg # Installation)\nADD INDIVIDUAL SLIDES WITH ## (eg ## rustup on Linux/macOS)\nKEEP THEM RELATIVELY SLIDE-LIKE; THESE ARE NOTES, NOT THE BOOK ITSELF.",
     "crumbs": [
       "ADaM",
-      "ADRS"
+      "ADSL"
     ]
   },
   {
-    "objectID": "slides/ADRS.html#slide-1",
-    "href": "slides/ADRS.html#slide-1",
-    "title": "ADRS",
+    "objectID": "slides/ADSL.html#slide-1",
+    "href": "slides/ADSL.html#slide-1",
+    "title": "ADSL",
     "section": "SLIDE",
     "text": "SLIDE",
     "crumbs": [
       "ADaM",
-      "ADRS"
+      "ADSL"
     ]
   },
   {
-    "objectID": "slides/ADRS.html#slide-2",
-    "href": "slides/ADRS.html#slide-2",
-    "title": "ADRS",
+    "objectID": "slides/ADSL.html#slide-2",
+    "href": "slides/ADSL.html#slide-2",
+    "title": "ADSL",
     "section": "SLIDE",
     "text": "SLIDE",
     "crumbs": [
       "ADaM",
-      "ADRS"
+      "ADSL"
     ]
   },
   {
-    "objectID": "slides/ADRS.html#slide-3",
-    "href": "slides/ADRS.html#slide-3",
-    "title": "ADRS",
+    "objectID": "slides/ADSL.html#slide-3",
+    "href": "slides/ADSL.html#slide-3",
+    "title": "ADSL",
     "section": "SLIDE",
     "text": "SLIDE",
     "crumbs": [
       "ADaM",
-      "ADRS"
+      "ADSL"
     ]
   },
   {
-    "objectID": "slides/adverse_events.html#slide",
-    "href": "slides/adverse_events.html#slide",
-    "title": "Adverse Events",
+    "objectID": "slides/difference_betweens_logs.html#slide",
+    "href": "slides/difference_betweens_logs.html#slide",
+    "title": "The Difference Between logr, logrx, and whirl",
+    "section": "SLIDE",
+    "text": "SLIDE\n\nDENOTE MAJOR SECTIONS WITH # TITLE (eg # Installation)\nADD INDIVIDUAL SLIDES WITH ## (eg ## rustup on Linux/macOS)\nKEEP THEM RELATIVELY SLIDE-LIKE; THESE ARE NOTES, NOT THE BOOK ITSELF.",
+    "crumbs": [
+      "Logs",
+      "The Difference Between logr, logrx, and whirl"
+    ]
+  },
+  {
+    "objectID": "slides/difference_betweens_logs.html#slide-1",
+    "href": "slides/difference_betweens_logs.html#slide-1",
+    "title": "The Difference Between logr, logrx, and whirl",
+    "section": "SLIDE",
+    "text": "SLIDE",
+    "crumbs": [
+      "Logs",
+      "The Difference Between logr, logrx, and whirl"
+    ]
+  },
+  {
+    "objectID": "slides/difference_betweens_logs.html#slide-2",
+    "href": "slides/difference_betweens_logs.html#slide-2",
+    "title": "The Difference Between logr, logrx, and whirl",
+    "section": "SLIDE",
+    "text": "SLIDE",
+    "crumbs": [
+      "Logs",
+      "The Difference Between logr, logrx, and whirl"
+    ]
+  },
+  {
+    "objectID": "slides/difference_betweens_logs.html#slide-3",
+    "href": "slides/difference_betweens_logs.html#slide-3",
+    "title": "The Difference Between logr, logrx, and whirl",
+    "section": "SLIDE",
+    "text": "SLIDE",
+    "crumbs": [
+      "Logs",
+      "The Difference Between logr, logrx, and whirl"
+    ]
+  },
+  {
+    "objectID": "slides/running_examples.html#slide",
+    "href": "slides/running_examples.html#slide",
+    "title": "Running Examples",
+    "section": "SLIDE",
+    "text": "SLIDE\n\nDENOTE MAJOR SECTIONS WITH # TITLE (eg # Installation)\nADD INDIVIDUAL SLIDES WITH ## (eg ## rustup on Linux/macOS)\nKEEP THEM RELATIVELY SLIDE-LIKE; THESE ARE NOTES, NOT THE BOOK ITSELF.",
+    "crumbs": [
+      "Introduction",
+      "Running Examples"
+    ]
+  },
+  {
+    "objectID": "slides/running_examples.html#slide-1",
+    "href": "slides/running_examples.html#slide-1",
+    "title": "Running Examples",
+    "section": "SLIDE",
+    "text": "SLIDE",
+    "crumbs": [
+      "Introduction",
+      "Running Examples"
+    ]
+  },
+  {
+    "objectID": "slides/running_examples.html#slide-2",
+    "href": "slides/running_examples.html#slide-2",
+    "title": "Running Examples",
+    "section": "SLIDE",
+    "text": "SLIDE",
+    "crumbs": [
+      "Introduction",
+      "Running Examples"
+    ]
+  },
+  {
+    "objectID": "slides/running_examples.html#slide-3",
+    "href": "slides/running_examples.html#slide-3",
+    "title": "Running Examples",
+    "section": "SLIDE",
+    "text": "SLIDE",
+    "crumbs": [
+      "Introduction",
+      "Running Examples"
+    ]
+  },
+  {
+    "objectID": "slides/demographic_table.html#slide",
+    "href": "slides/demographic_table.html#slide",
+    "title": "Demographic Table",
     "section": "SLIDE",
     "text": "SLIDE\n\nDENOTE MAJOR SECTIONS WITH # TITLE (eg # Installation)\nADD INDIVIDUAL SLIDES WITH ## (eg ## rustup on Linux/macOS)\nKEEP THEM RELATIVELY SLIDE-LIKE; THESE ARE NOTES, NOT THE BOOK ITSELF.",
     "crumbs": [
       "TLG",
-      "Adverse Events"
+      "Demographic Table"
     ]
   },
   {
-    "objectID": "slides/adverse_events.html#slide-1",
-    "href": "slides/adverse_events.html#slide-1",
-    "title": "Adverse Events",
+    "objectID": "slides/demographic_table.html#slide-1",
+    "href": "slides/demographic_table.html#slide-1",
+    "title": "Demographic Table",
     "section": "SLIDE",
     "text": "SLIDE",
     "crumbs": [
       "TLG",
-      "Adverse Events"
+      "Demographic Table"
     ]
   },
   {
-    "objectID": "slides/adverse_events.html#slide-2",
-    "href": "slides/adverse_events.html#slide-2",
-    "title": "Adverse Events",
+    "objectID": "slides/demographic_table.html#slide-2",
+    "href": "slides/demographic_table.html#slide-2",
+    "title": "Demographic Table",
     "section": "SLIDE",
     "text": "SLIDE",
     "crumbs": [
       "TLG",
-      "Adverse Events"
+      "Demographic Table"
     ]
   },
   {
-    "objectID": "slides/adverse_events.html#slide-3",
-    "href": "slides/adverse_events.html#slide-3",
-    "title": "Adverse Events",
+    "objectID": "slides/demographic_table.html#slide-3",
+    "href": "slides/demographic_table.html#slide-3",
+    "title": "Demographic Table",
     "section": "SLIDE",
     "text": "SLIDE",
     "crumbs": [
       "TLG",
-      "Adverse Events"
+      "Demographic Table"
     ]
   }
 ]

@@ -6,10 +6,10 @@
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-8ef56b68f8fa1e9d2ba328e99e439f80.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.7.31">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.7.32">
 
-  <title>Pharmaverse Examples Book Club – ADRS</title>
+  <title>Pharmaverse Examples Book Club – BDS</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -126,64 +126,470 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">ADRS</h1>
+  <h1 class="title">BDS</h1>
 
 <div class="quarto-title-authors">
 </div>
 
 </section>
-<section id="learning-objectives" class="title-slide slide level1 center">
-<h1>Learning objectives</h1>
+<section id="what-is-bds" class="title-slide slide level1 center">
+<h1>What is BDS?</h1>
 <ul>
-<li>THESE ARE NICE TO HAVE BUT NOT ABSOLUTELY NECESSARY</li>
-</ul>
-<aside class="notes">
+<li><strong>BDS</strong> = Basic Data Structure</li>
+<li>A flexible ADaM format used for most subject-level analysis datasets</li>
+<li>Key features:
 <ul>
-<li>You can add notes on each slide with blocks like this!</li>
-<li>Load a deck in the browser and type “s” to see these notes.</li>
+<li>One record per subject, parameter, and timepoint</li>
+<li>Standardized variables: <code>PARAMCD</code>, <code>AVAL</code>, <code>ADY</code>, <code>TRTP</code>, etc.</li>
+<li>Derived from SDTM + ADSL</li>
+</ul></li>
 </ul>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
+</section>
+
+<section id="bds-subtypes---part-1" class="title-slide slide level1 center">
+<h1>BDS Subtypes - part 1</h1>
+<p>BDS is used for different analysis goals:</p>
+<table class="caption-top">
+<colgroup>
+<col style="width: 13%">
+<col style="width: 72%">
+<col style="width: 14%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Subtype</th>
+<th>Purpose (in simple terms)</th>
+<th>Examples</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Findings</td>
+<td>For things we measure repeatedly during the study, like blood pressure or lab tests</td>
+<td>ADVS, ADLB, ADPC</td>
+</tr>
+<tr class="even">
+<td>Exposure</td>
+<td>Describes what treatment the subject actually received — how much, how often, how long</td>
+<td>ADEX</td>
+</tr>
+<tr class="odd">
+<td>Time-to-Event</td>
+<td>Tracks how long it takes for something important to happen (like death, relapse, etc.)</td>
+<td>ADTTE</td>
+</tr>
+</tbody>
+</table>
+</section>
+
+<section id="bds-subtypes---part2" class="title-slide slide level1 center">
+<h1>BDS Subtypes - part2</h1>
+<p>BDS is used for different analysis goals:</p>
+<table class="caption-top">
+<colgroup>
+<col style="width: 13%">
+<col style="width: 72%">
+<col style="width: 14%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Subtype</th>
+<th>Purpose (in simple terms)</th>
+<th>Examples</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Response</td>
+<td>Records the subject’s response to treatment, usually as categories like “improved” or “worsened”</td>
+<td>ADRS</td>
+</tr>
+<tr class="even">
+<td>PK Parameters</td>
+<td>Shows how the drug behaves in the body: absorption, concentration, elimination, etc.</td>
+<td>ADPPK</td>
+</tr>
+</tbody>
+</table>
+<p>All share the same core structure, adapted for their purpose.</p>
 </section>
 
 <section>
-<section id="slide-section" class="title-slide slide level1 center">
-<h1>SLIDE SECTION</h1>
+<section id="common-bds-datasets" class="title-slide slide level1 center">
+<h1>Common BDS Datasets</h1>
 
 </section>
-<section id="slide" class="slide level2">
-<h2>SLIDE</h2>
+<section id="adpc-pharmacokinetics-concentrations" class="slide level2">
+<h2>ADPC – Pharmacokinetics Concentrations</h2>
 <ul>
-<li>DENOTE MAJOR SECTIONS WITH <code># TITLE</code> (eg <code># Installation</code>)</li>
-<li>ADD INDIVIDUAL SLIDES WITH <code>##</code> (eg <code>## rustup on Linux/macOS</code>)</li>
-<li>KEEP THEM RELATIVELY SLIDE-LIKE; THESE ARE NOTES, NOT THE BOOK ITSELF.</li>
+<li>Based on SDTM PC (Pharmacokinetics Concentrations) domain<br>
+</li>
+<li>Measures drug levels in biofluids (e.g.&nbsp;plasma)<br>
+</li>
+<li>Used in non-compartmental PK analysis</li>
 </ul>
 </section>
-<section id="slide-1" class="slide level2">
-<h2>SLIDE</h2>
+<section id="adppk-pk-parameters" class="slide level2">
+<h2>ADPPK – PK Parameters</h2>
+<ul>
+<li>Based on ADPC results<br>
+</li>
+<li>Derived AUC (Area Under Curve), Cmax (Maximum Concentration), Tmax (Time to Max Concentration), etc.<br>
+</li>
+<li>Used for dose-response modeling</li>
+</ul>
+</section>
+<section id="adrs-response-data" class="slide level2">
+<h2>ADRS – Response Data</h2>
+<ul>
+<li>Derived from RS (Disease Response), TU (Tumor Identification), TR (Tumor Results) domains<br>
+</li>
+<li>Categorical outcomes: CR (Complete Response), PR (Partial Response), SD (Stable Disease), PD (Progressive Disease)<br>
+</li>
+<li>Often used in oncology</li>
+</ul>
+</section>
+<section id="adtte-time-to-event" class="slide level2">
+<h2>ADTTE – Time to Event</h2>
+<ul>
+<li>Based on ADSL (Subject-Level) and AE (Adverse Events), DS (Disposition), VS (Vital Signs) events<br>
+</li>
+<li>Used for endpoints like OS (Overall Survival), PFS (Progression-Free Survival), time to death<br>
+</li>
+<li>Key variables: <code>AVAL</code>, <code>CNSR</code> (Censoring), <code>STARTDT</code>, <code>ADT</code> (Analysis Date)</li>
+</ul>
+</section>
+<section id="advs-vital-signs" class="slide level2">
+<h2>ADVS – Vital Signs</h2>
+<ul>
+<li>Based on SDTM VS (Vital Signs) domain<br>
+</li>
+<li>Derives BMI (Body Mass Index), MAP (Mean Arterial Pressure), etc.<br>
+</li>
+<li>Used in safety summaries</li>
+</ul>
 </section></section>
+<section id="variable-types-in-bds---part-1" class="title-slide slide level1 center">
+<h1>Variable Types in BDS - part 1</h1>
+<p>We group derived variables by <strong>purpose</strong>:</p>
+<ul>
+<li>Timing</li>
+<li>Parameter Identification</li>
+<li>Results</li>
+<li>Derived Parameters</li>
+<li>Reference Ranges</li>
+</ul>
+</section>
+
 <section>
-<section id="slide-section-1" class="title-slide slide level1 center">
-<h1>SLIDE SECTION</h1>
-
+<section id="variable-types-in-bds---part-2" class="title-slide slide level1 center">
+<h1>Variable Types in BDS - part 2</h1>
+<p>We group derived variables by <strong>purpose</strong>:</p>
+<ul>
+<li>Baseline &amp; Change</li>
+<li>Flags</li>
+<li>Treatment</li>
+<li>Categorization</li>
+<li>Criterion-Based Flags</li>
+<li>Row creation / imputation</li>
+</ul>
 </section>
-<section id="slide-2" class="slide level2">
-<h2>SLIDE</h2>
+<section id="timing-variables" class="slide level2">
+<h2>Timing Variables</h2>
+<p>These variables place each observation in the study timeline and help track when it occurred relative to treatment, visits, or other study milestones.</p>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Variable</th>
+<th>Description</th>
+<th>Why it’s Needed</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>ADT</code></td>
+<td>Analysis date</td>
+<td>Anchors timepoint in study</td>
+</tr>
+<tr class="even">
+<td><code>ADTM</code></td>
+<td>Analysis datetime</td>
+<td>Adds time granularity</td>
+</tr>
+<tr class="odd">
+<td><code>ADY</code></td>
+<td>Relative study day</td>
+<td>For analysis over time</td>
+</tr>
+</tbody>
+</table>
 </section>
-<section id="slide-3" class="slide level2">
-<h2>SLIDE</h2>
-
-
+<section id="timing-variables-1" class="slide level2">
+<h2>Timing Variables</h2>
+<p>These variables place each observation in the study timeline and help track when it occurred relative to treatment, visits, or other study milestones.</p>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Variable</th>
+<th>Description</th>
+<th>Why it’s Needed</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>ADTF</code>, <code>ATMF</code></td>
+<td>Imputation flags</td>
+<td>Tracks incomplete dates</td>
+</tr>
+<tr class="even">
+<td><code>AVISIT</code>, <code>AVISITN</code></td>
+<td>Visit name/number</td>
+<td>Sorting &amp; summaries</td>
+</tr>
+<tr class="odd">
+<td><code>APHASE</code>, <code>APERIOD</code></td>
+<td>Study phase/period</td>
+<td>For grouping data</td>
+</tr>
+<tr class="even">
+<td><code>ONTRTFL</code></td>
+<td>On-treatment flag</td>
+<td>Treatment window check</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="parameter-identification" class="slide level2">
+<h2>Parameter Identification</h2>
+<p>These variables define what is being measured — each record in BDS must correspond to a unique parameter per subject per timepoint.</p>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Variable</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>PARAMCD</code></td>
+<td>Short parameter code</td>
+</tr>
+<tr class="even">
+<td><code>PARAM</code></td>
+<td>Full parameter name</td>
+</tr>
+<tr class="odd">
+<td><code>PARAMN</code></td>
+<td>Numeric ID (optional)</td>
+</tr>
+<tr class="even">
+<td><code>PARCAT1</code>, <code>PARCAT2</code></td>
+<td>Parameter categories</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="result-variables" class="slide level2">
+<h2>Result Variables</h2>
+<p>These variables store the main output of analysis — either numeric results or their character equivalents and categorized forms.</p>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Variable</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>AVAL</code></td>
+<td>Numeric result</td>
+</tr>
+<tr class="even">
+<td><code>AVALC</code></td>
+<td>Character result</td>
+</tr>
+<tr class="odd">
+<td><code>AVALCATy</code></td>
+<td>Categorization (e.g.&nbsp;low/normal/high)</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="derived-parameters" class="slide level2">
+<h2>Derived Parameters</h2>
+<p>Used to compute secondary or composite measurements derived from primary variables, such as BMI or MAP.</p>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Variable</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>BMI</code>, <code>MAP</code>, etc.</td>
+<td>Derived from base measurements</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="reference-ranges" class="slide level2">
+<h2>Reference Ranges</h2>
+<p>These help classify whether values are within normal clinical limits, often based on lab ranges.</p>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Variable</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>ANRLO</code>, <code>ANRHI</code></td>
+<td>Normal limits</td>
+</tr>
+<tr class="even">
+<td><code>ANRIND</code></td>
+<td>Low/High/Normal flag</td>
+</tr>
+<tr class="odd">
+<td><code>BNRIND</code></td>
+<td>Baseline version of ANRIND</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="baseline-change" class="slide level2">
+<h2>Baseline &amp; Change</h2>
+<p>These variables allow comparison of on-treatment values to a defined pre-treatment baseline.</p>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Variable</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>BASE</code></td>
+<td>Baseline value</td>
+</tr>
+<tr class="even">
+<td><code>CHG</code></td>
+<td>Change from baseline</td>
+</tr>
+<tr class="odd">
+<td><code>PCHG</code></td>
+<td>Percent change</td>
+</tr>
+<tr class="even">
+<td><code>ABLFL</code></td>
+<td>Baseline flag</td>
+</tr>
+<tr class="odd">
+<td><code>BASETYPE</code></td>
+<td>Type of baseline measurement</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="flags-filtering" class="slide level2">
+<h2>Flags &amp; Filtering</h2>
+<p>Binary flags are used to identify records relevant to specific analyses or TLGs.</p>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Variable</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>ANL01FL</code></td>
+<td>Primary analysis record flag</td>
+</tr>
+<tr class="even">
+<td><code>ASEQ</code></td>
+<td>Sequence number</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="treatment-assignment" class="slide level2">
+<h2>Treatment Assignment</h2>
+<p>Used to categorize subjects by planned and actual treatment arms.</p>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Variable</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>TRTA</code></td>
+<td>Actual treatment</td>
+</tr>
+<tr class="even">
+<td><code>TRTP</code></td>
+<td>Planned treatment</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="categorization-criteria" class="slide level2">
+<h2>Categorization &amp; Criteria</h2>
+<p>Used to apply clinical cutoffs or create groupings based on results.</p>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Variable</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>AVALCATy</code></td>
+<td>Categorized values</td>
+</tr>
+<tr class="even">
+<td><code>CRITy</code>, <code>CRITyFL</code>, <code>CRITyFN</code></td>
+<td>Threshold logic (e.g., BP &gt; 180)</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="adsl-merge-new-rows" class="slide level2">
+<h2>ADSL Merge &amp; New Rows</h2>
+<p>Derived BDS datasets also pull in subject-level attributes from ADSL, and may create new rows summarizing or imputing data.</p>
+<ul>
+<li>Add subject-level variables from ADSL (e.g.&nbsp;<code>AGE</code>, <code>SEX</code>, <code>TRTSDT</code>)</li>
+<li>Derive new records (e.g.&nbsp;summary rows, worst value, average across visits)</li>
+</ul>
 </section></section>
+<section id="hands-on-workshop-bds-findings" class="title-slide slide level1 center">
+<h1>Hands-On Workshop: BDS – Findings</h1>
+<p>We will derive a BDS Findings dataset using <code>{admiral}</code>.</p>
+<p>Link: <a href="https://pharmaverse.github.io/admiral/articles/bds_finding.html">https://pharmaverse.github.io/admiral/articles/bds_finding.html</a></p>
+<p>Key steps: - Read SDTM data - Derive <code>ADT</code>, <code>ADY</code> - Assign <code>PARAMCD</code>, <code>PARAM</code> - Derive <code>AVAL</code>, <code>BASE</code>, <code>CHG</code>, <code>ANL01FL</code>, etc. - Merge with ADSL - Add labels and attributes</p>
+<p>Repository: <a href="https://github.com/pharmaverse/admiral/blob/main/vignettes/bds_finding.Rmd">GitHub Code</a></p>
+</section>
+
+<section id="other-bds-types-work-similarly" class="title-slide slide level1 center">
+<h1>Other BDS Types Work Similarly</h1>
+<p>Once you master Findings-type BDS, the rest follow similar logic:</p>
+<ul>
+<li>TTE: uses <code>CNSR</code>, event definitions</li>
+<li>Exposure: aggregates dose/duration from EX</li>
+</ul>
+<p>Further examples: - <a href="https://pharmaverse.github.io/admiral/cran-release/articles/bds_tte.html">Time-to-Event BDS (ADTTE)</a> - <a href="https://pharmaverse.github.io/admiral/articles/bds_exposure.html">Exposure BDS</a></p>
+</section>
+
+<section id="questions" class="title-slide slide level1 center">
+<h1>Questions?</h1>
+
+
+</section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <div class="footer footer-default">
