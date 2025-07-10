@@ -1,0 +1,279 @@
+---
+engine: knitr
+title: "BDS"
+---
+
+# What is BDS?
+
+- **BDS** = Basic Data Structure
+- A flexible ADaM format used for most subject-level analysis datasets
+- Key features:
+  - One record per subject, parameter, and timepoint
+  - Standardized variables: `PARAMCD`, `AVAL`, `ADY`, `TRTP`, etc.
+  - Derived from SDTM + ADSL
+
+
+
+# BDS Subtypes - part 1
+
+BDS is used for different analysis goals:
+
+::: nonincremental
+
+| Subtype         | Purpose (in simple terms)                                                                 | Examples         |
+|-----------------|--------------------------------------------------------------------------------------------|------------------|
+| Findings        | For things we measure repeatedly during the study, like blood pressure or lab tests       | ADVS, ADLB, ADPC |
+| Exposure        | Describes what treatment the subject actually received — how much, how often, how long    | ADEX             |
+| Time-to-Event   | Tracks how long it takes for something important to happen (like death, relapse, etc.)    | ADTTE            |
+
+
+:::
+
+# BDS Subtypes - part2
+
+BDS is used for different analysis goals:
+
+::: nonincremental
+
+
+| Subtype         | Purpose (in simple terms)                                                                 | Examples         |
+|-----------------|--------------------------------------------------------------------------------------------|------------------|
+| Response        | Records the subject's response to treatment, usually as categories like "improved" or "worsened" | ADRS             |
+| PK Parameters   | Shows how the drug behaves in the body: absorption, concentration, elimination, etc.      | ADPPK            |
+
+
+:::
+
+
+All share the same core structure, adapted for their purpose.
+
+
+
+# Common BDS Datasets
+
+## ADPC – Pharmacokinetics Concentrations
+
+- Based on SDTM PC (Pharmacokinetics Concentrations) domain  
+- Measures drug levels in biofluids (e.g. plasma)  
+- Used in non-compartmental PK analysis  
+
+
+## ADPPK – PK Parameters
+
+- Based on ADPC results  
+- Derived AUC (Area Under Curve), Cmax (Maximum Concentration), Tmax (Time to Max Concentration), etc.  
+- Used for dose-response modeling  
+
+
+## ADRS – Response Data
+
+- Derived from RS (Disease Response), TU (Tumor Identification), TR (Tumor Results) domains  
+- Categorical outcomes: CR (Complete Response), PR (Partial Response), SD (Stable Disease), PD (Progressive Disease)  
+- Often used in oncology  
+
+
+## ADTTE – Time to Event
+
+- Based on ADSL (Subject-Level) and AE (Adverse Events), DS (Disposition), VS (Vital Signs) events  
+- Used for endpoints like OS (Overall Survival), PFS (Progression-Free Survival), time to death  
+- Key variables: `AVAL`, `CNSR` (Censoring), `STARTDT`, `ADT` (Analysis Date)  
+
+
+## ADVS – Vital Signs
+
+- Based on SDTM VS (Vital Signs) domain  
+- Derives BMI (Body Mass Index), MAP (Mean Arterial Pressure), etc.  
+- Used in safety summaries  
+
+
+# Variable Types in BDS - part 1
+
+We group derived variables by **purpose**:
+
+- Timing
+- Parameter Identification
+- Results
+- Derived Parameters
+- Reference Ranges
+
+# Variable Types in BDS - part 2
+
+We group derived variables by **purpose**:
+
+- Baseline & Change
+- Flags
+- Treatment
+- Categorization
+- Criterion-Based Flags
+- Row creation / imputation
+
+
+## Timing Variables
+
+These variables place each observation in the study timeline and help track when it occurred relative to treatment, visits, or other study milestones.
+
+::: nonincremental
+| Variable | Description | Why it's Needed |
+|----------|-------------|-----------------|
+| `ADT` | Analysis date | Anchors timepoint in study |
+| `ADTM` | Analysis datetime | Adds time granularity |
+| `ADY` | Relative study day | For analysis over time |
+:::
+
+
+## Timing Variables
+
+These variables place each observation in the study timeline and help track when it occurred relative to treatment, visits, or other study milestones.
+
+::: nonincremental
+| Variable | Description | Why it's Needed |
+|----------|-------------|-----------------|
+| `ADTF`, `ATMF` | Imputation flags | Tracks incomplete dates |
+| `AVISIT`, `AVISITN` | Visit name/number | Sorting & summaries |
+| `APHASE`, `APERIOD` | Study phase/period | For grouping data |
+| `ONTRTFL` | On-treatment flag | Treatment window check |
+:::
+
+
+## Parameter Identification
+
+These variables define what is being measured — each record in BDS must correspond to a unique parameter per subject per timepoint.
+
+::: nonincremental
+| Variable | Description |
+|----------|-------------|
+| `PARAMCD` | Short parameter code |
+| `PARAM` | Full parameter name |
+| `PARAMN` | Numeric ID (optional) |
+| `PARCAT1`, `PARCAT2` | Parameter categories |
+:::
+
+
+## Result Variables
+
+These variables store the main output of analysis — either numeric results or their character equivalents and categorized forms.
+
+::: nonincremental
+| Variable | Description |
+|----------|-------------|
+| `AVAL` | Numeric result |
+| `AVALC` | Character result |
+| `AVALCATy` | Categorization (e.g. low/normal/high) |
+:::
+
+
+## Derived Parameters
+
+Used to compute secondary or composite measurements derived from primary variables, such as BMI or MAP.
+
+::: nonincremental
+| Variable | Description |
+|----------|-------------|
+| `BMI`, `MAP`, etc. | Derived from base measurements |
+:::
+
+
+## Reference Ranges
+
+These help classify whether values are within normal clinical limits, often based on lab ranges.
+
+::: nonincremental
+| Variable | Description |
+|----------|-------------|
+| `ANRLO`, `ANRHI` | Normal limits |
+| `ANRIND` | Low/High/Normal flag |
+| `BNRIND` | Baseline version of ANRIND |
+:::
+
+
+## Baseline & Change
+
+These variables allow comparison of on-treatment values to a defined pre-treatment baseline.
+
+::: nonincremental
+| Variable | Description |
+|----------|-------------|
+| `BASE` | Baseline value |
+| `CHG` | Change from baseline |
+| `PCHG` | Percent change |
+| `ABLFL` | Baseline flag |
+| `BASETYPE` | Type of baseline measurement |
+:::
+
+
+## Flags & Filtering
+
+Binary flags are used to identify records relevant to specific analyses or TLGs.
+
+::: nonincremental
+| Variable | Description |
+|----------|-------------|
+| `ANL01FL` | Primary analysis record flag |
+| `ASEQ` | Sequence number |
+:::
+
+
+## Treatment Assignment
+
+Used to categorize subjects by planned and actual treatment arms.
+
+::: nonincremental
+| Variable | Description |
+|----------|-------------|
+| `TRTA` | Actual treatment |
+| `TRTP` | Planned treatment |
+:::
+
+
+## Categorization & Criteria
+
+Used to apply clinical cutoffs or create groupings based on results.
+
+::: nonincremental
+| Variable | Description |
+|----------|-------------|
+| `AVALCATy` | Categorized values |
+| `CRITy`, `CRITyFL`, `CRITyFN` | Threshold logic (e.g., BP > 180) |
+:::
+
+
+## ADSL Merge & New Rows
+
+Derived BDS datasets also pull in subject-level attributes from ADSL, and may create new rows summarizing or imputing data.
+
+- Add subject-level variables from ADSL (e.g. `AGE`, `SEX`, `TRTSDT`)
+- Derive new records (e.g. summary rows, worst value, average across visits)
+
+
+# Hands-On Workshop: BDS – Findings
+
+We will derive a BDS Findings dataset using `{admiral}`.
+
+Link: [https://pharmaverse.github.io/admiral/articles/bds_finding.html](https://pharmaverse.github.io/admiral/articles/bds_finding.html)
+
+Key steps:
+- Read SDTM data
+- Derive `ADT`, `ADY`
+- Assign `PARAMCD`, `PARAM`
+- Derive `AVAL`, `BASE`, `CHG`, `ANL01FL`, etc.
+- Merge with ADSL
+- Add labels and attributes
+
+Repository: [GitHub Code](https://github.com/pharmaverse/admiral/blob/main/vignettes/bds_finding.Rmd)
+
+
+
+# Other BDS Types Work Similarly
+
+Once you master Findings-type BDS, the rest follow similar logic:
+
+- TTE: uses `CNSR`, event definitions
+- Exposure: aggregates dose/duration from EX
+
+Further examples:
+- [Time-to-Event BDS (ADTTE)](https://pharmaverse.github.io/admiral/cran-release/articles/bds_tte.html)
+- [Exposure BDS](https://pharmaverse.github.io/admiral/articles/bds_exposure.html)
+
+
+
+# Questions?
