@@ -30,6 +30,8 @@ website:
             target: pharmaverse_club-ADSL
           - file: slides/BDS.qmd
             target: pharmaverse_club-BDS
+          - file: slides/BDS_ADVS.qmd
+            target: pharmaverse_club-BDS
           - file: slides/ADAE.qmd
             target: pharmaverse_club-ADAE
       - section: "TLG"
