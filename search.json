@@ -10,77 +10,91 @@
     ]
   },
   {
-    "objectID": "slides/00-club_intro.html#book-club-meetings",
-    "href": "slides/00-club_intro.html#book-club-meetings",
-    "title": "Club Meetings",
-    "section": "Book club meetings",
-    "text": "Book club meetings\n\nVolunteer leads discussion of a set of examples\n\nThis is the best way to learn the material.\n\nPresentations:\n\nReview of material\nQuestions you have\nMaybe live demo\n\nMore info about editing: this github repo.\nRecorded, available on the Data Science Learning Community YouTube Channel (DSLC.video).",
+    "objectID": "slides/ADAE.html#slide",
+    "href": "slides/ADAE.html#slide",
+    "title": "ADAE",
+    "section": "SLIDE",
+    "text": "SLIDE\n\nDENOTE MAJOR SECTIONS WITH # TITLE (eg # Installation)\nADD INDIVIDUAL SLIDES WITH ## (eg ## rustup on Linux/macOS)\nKEEP THEM RELATIVELY SLIDE-LIKE; THESE ARE NOTES, NOT THE BOOK ITSELF.",
     "crumbs": [
-      "Club Meetings"
+      "ADaM",
+      "ADAE"
     ]
   },
   {
-    "objectID": "slides/00-club_intro.html#pace",
-    "href": "slides/00-club_intro.html#pace",
-    "title": "Club Meetings",
-    "section": "Pace",
-    "text": "Pace\n\nGoal: TBD/week\nOk to split overwhelming example sets\nOk to combine short example sets\nMeet every week except holidays, etc\n\nIdeally can discuss even if presenter unavailable",
+    "objectID": "slides/ADAE.html#slide-1",
+    "href": "slides/ADAE.html#slide-1",
+    "title": "ADAE",
+    "section": "SLIDE",
+    "text": "SLIDE",
     "crumbs": [
-      "Club Meetings"
+      "ADaM",
+      "ADAE"
     ]
   },
   {
-    "objectID": "slides/00-club_intro.html#learning-objectives-los",
-    "href": "slides/00-club_intro.html#learning-objectives-los",
-    "title": "Club Meetings",
-    "section": "Learning objectives (LOs)",
-    "text": "Learning objectives (LOs)\n\nStudents who study with LOs in mind retain more.\nTips:\n\nThink “After today’s session, you will be able to {LO}”.\nVery roughly 1 per heading.",
+    "objectID": "slides/ADAE.html#slide-2",
+    "href": "slides/ADAE.html#slide-2",
+    "title": "ADAE",
+    "section": "SLIDE",
+    "text": "SLIDE",
     "crumbs": [
-      "Club Meetings"
+      "ADaM",
+      "ADAE"
     ]
   },
   {
-    "objectID": "slides/pharmacokinetic.html#slide",
-    "href": "slides/pharmacokinetic.html#slide",
-    "title": "Pharmacokinetic",
+    "objectID": "slides/ADAE.html#slide-3",
+    "href": "slides/ADAE.html#slide-3",
+    "title": "ADAE",
+    "section": "SLIDE",
+    "text": "SLIDE",
+    "crumbs": [
+      "ADaM",
+      "ADAE"
+    ]
+  },
+  {
+    "objectID": "slides/demographic_table.html#slide",
+    "href": "slides/demographic_table.html#slide",
+    "title": "Demographic Table",
     "section": "SLIDE",
     "text": "SLIDE\n\nDENOTE MAJOR SECTIONS WITH # TITLE (eg # Installation)\nADD INDIVIDUAL SLIDES WITH ## (eg ## rustup on Linux/macOS)\nKEEP THEM RELATIVELY SLIDE-LIKE; THESE ARE NOTES, NOT THE BOOK ITSELF.",
     "crumbs": [
       "TLG",
-      "Pharmacokinetic"
+      "Demographic Table"
     ]
   },
   {
-    "objectID": "slides/pharmacokinetic.html#slide-1",
-    "href": "slides/pharmacokinetic.html#slide-1",
-    "title": "Pharmacokinetic",
+    "objectID": "slides/demographic_table.html#slide-1",
+    "href": "slides/demographic_table.html#slide-1",
+    "title": "Demographic Table",
     "section": "SLIDE",
     "text": "SLIDE",
     "crumbs": [
       "TLG",
-      "Pharmacokinetic"
+      "Demographic Table"
     ]
   },
   {
-    "objectID": "slides/pharmacokinetic.html#slide-2",
-    "href": "slides/pharmacokinetic.html#slide-2",
-    "title": "Pharmacokinetic",
+    "objectID": "slides/demographic_table.html#slide-2",
+    "href": "slides/demographic_table.html#slide-2",
+    "title": "Demographic Table",
     "section": "SLIDE",
     "text": "SLIDE",
     "crumbs": [
       "TLG",
-      "Pharmacokinetic"
+      "Demographic Table"
     ]
   },
   {
-    "objectID": "slides/pharmacokinetic.html#slide-3",
-    "href": "slides/pharmacokinetic.html#slide-3",
-    "title": "Pharmacokinetic",
+    "objectID": "slides/demographic_table.html#slide-3",
+    "href": "slides/demographic_table.html#slide-3",
+    "title": "Demographic Table",
     "section": "SLIDE",
     "text": "SLIDE",
     "crumbs": [
       "TLG",
-      "Pharmacokinetic"
+      "Demographic Table"
     ]
   },
   {
@@ -128,6 +142,80 @@
     ]
   },
   {
+    "objectID": "slides/teal_applications.html#slide",
+    "href": "slides/teal_applications.html#slide",
+    "title": "teal applications",
+    "section": "SLIDE",
+    "text": "SLIDE\n\nDENOTE MAJOR SECTIONS WITH # TITLE (eg # Installation)\nADD INDIVIDUAL SLIDES WITH ## (eg ## rustup on Linux/macOS)\nKEEP THEM RELATIVELY SLIDE-LIKE; THESE ARE NOTES, NOT THE BOOK ITSELF.",
+    "crumbs": [
+      "Interactive",
+      "teal applications"
+    ]
+  },
+  {
+    "objectID": "slides/teal_applications.html#slide-1",
+    "href": "slides/teal_applications.html#slide-1",
+    "title": "teal applications",
+    "section": "SLIDE",
+    "text": "SLIDE",
+    "crumbs": [
+      "Interactive",
+      "teal applications"
+    ]
+  },
+  {
+    "objectID": "slides/teal_applications.html#slide-2",
+    "href": "slides/teal_applications.html#slide-2",
+    "title": "teal applications",
+    "section": "SLIDE",
+    "text": "SLIDE",
+    "crumbs": [
+      "Interactive",
+      "teal applications"
+    ]
+  },
+  {
+    "objectID": "slides/teal_applications.html#slide-3",
+    "href": "slides/teal_applications.html#slide-3",
+    "title": "teal applications",
+    "section": "SLIDE",
+    "text": "SLIDE",
+    "crumbs": [
+      "Interactive",
+      "teal applications"
+    ]
+  },
+  {
+    "objectID": "slides/00-club_intro.html#book-club-meetings",
+    "href": "slides/00-club_intro.html#book-club-meetings",
+    "title": "Club Meetings",
+    "section": "Book club meetings",
+    "text": "Book club meetings\n\nVolunteer leads discussion of a set of examples\n\nThis is the best way to learn the material.\n\nPresentations:\n\nReview of material\nQuestions you have\nMaybe live demo\n\nMore info about editing: this github repo.\nRecorded, available on the Data Science Learning Community YouTube Channel (DSLC.video).",
+    "crumbs": [
+      "Club Meetings"
+    ]
+  },
+  {
+    "objectID": "slides/00-club_intro.html#pace",
+    "href": "slides/00-club_intro.html#pace",
+    "title": "Club Meetings",
+    "section": "Pace",
+    "text": "Pace\n\nGoal: TBD/week\nOk to split overwhelming example sets\nOk to combine short example sets\nMeet every week except holidays, etc\n\nIdeally can discuss even if presenter unavailable",
+    "crumbs": [
+      "Club Meetings"
+    ]
+  },
+  {
+    "objectID": "slides/00-club_intro.html#learning-objectives-los",
+    "href": "slides/00-club_intro.html#learning-objectives-los",
+    "title": "Club Meetings",
+    "section": "Learning objectives (LOs)",
+    "text": "Learning objectives (LOs)\n\nStudents who study with LOs in mind retain more.\nTips:\n\nThink “After today’s session, you will be able to {LO}”.\nVery roughly 1 per heading.",
+    "crumbs": [
+      "Club Meetings"
+    ]
+  },
+  {
     "objectID": "slides/esubmission.html#slide",
     "href": "slides/esubmission.html#slide",
     "title": "eSubmission",
@@ -172,47 +260,135 @@
     ]
   },
   {
-    "objectID": "slides/ADAE.html#slide",
-    "href": "slides/ADAE.html#slide",
-    "title": "ADAE",
+    "objectID": "slides/running_examples.html#slide",
+    "href": "slides/running_examples.html#slide",
+    "title": "Running Examples",
+    "section": "SLIDE",
+    "text": "SLIDE\n\nDENOTE MAJOR SECTIONS WITH # TITLE (eg # Installation)\nADD INDIVIDUAL SLIDES WITH ## (eg ## rustup on Linux/macOS)\nKEEP THEM RELATIVELY SLIDE-LIKE; THESE ARE NOTES, NOT THE BOOK ITSELF.",
+    "crumbs": [
+      "Introduction",
+      "Running Examples"
+    ]
+  },
+  {
+    "objectID": "slides/running_examples.html#slide-1",
+    "href": "slides/running_examples.html#slide-1",
+    "title": "Running Examples",
+    "section": "SLIDE",
+    "text": "SLIDE",
+    "crumbs": [
+      "Introduction",
+      "Running Examples"
+    ]
+  },
+  {
+    "objectID": "slides/running_examples.html#slide-2",
+    "href": "slides/running_examples.html#slide-2",
+    "title": "Running Examples",
+    "section": "SLIDE",
+    "text": "SLIDE",
+    "crumbs": [
+      "Introduction",
+      "Running Examples"
+    ]
+  },
+  {
+    "objectID": "slides/running_examples.html#slide-3",
+    "href": "slides/running_examples.html#slide-3",
+    "title": "Running Examples",
+    "section": "SLIDE",
+    "text": "SLIDE",
+    "crumbs": [
+      "Introduction",
+      "Running Examples"
+    ]
+  },
+  {
+    "objectID": "slides/pharmacokinetic.html#slide",
+    "href": "slides/pharmacokinetic.html#slide",
+    "title": "Pharmacokinetic",
+    "section": "SLIDE",
+    "text": "SLIDE\n\nDENOTE MAJOR SECTIONS WITH # TITLE (eg # Installation)\nADD INDIVIDUAL SLIDES WITH ## (eg ## rustup on Linux/macOS)\nKEEP THEM RELATIVELY SLIDE-LIKE; THESE ARE NOTES, NOT THE BOOK ITSELF.",
+    "crumbs": [
+      "TLG",
+      "Pharmacokinetic"
+    ]
+  },
+  {
+    "objectID": "slides/pharmacokinetic.html#slide-1",
+    "href": "slides/pharmacokinetic.html#slide-1",
+    "title": "Pharmacokinetic",
+    "section": "SLIDE",
+    "text": "SLIDE",
+    "crumbs": [
+      "TLG",
+      "Pharmacokinetic"
+    ]
+  },
+  {
+    "objectID": "slides/pharmacokinetic.html#slide-2",
+    "href": "slides/pharmacokinetic.html#slide-2",
+    "title": "Pharmacokinetic",
+    "section": "SLIDE",
+    "text": "SLIDE",
+    "crumbs": [
+      "TLG",
+      "Pharmacokinetic"
+    ]
+  },
+  {
+    "objectID": "slides/pharmacokinetic.html#slide-3",
+    "href": "slides/pharmacokinetic.html#slide-3",
+    "title": "Pharmacokinetic",
+    "section": "SLIDE",
+    "text": "SLIDE",
+    "crumbs": [
+      "TLG",
+      "Pharmacokinetic"
+    ]
+  },
+  {
+    "objectID": "slides/ADSL.html#slide",
+    "href": "slides/ADSL.html#slide",
+    "title": "ADSL",
     "section": "SLIDE",
     "text": "SLIDE\n\nDENOTE MAJOR SECTIONS WITH # TITLE (eg # Installation)\nADD INDIVIDUAL SLIDES WITH ## (eg ## rustup on Linux/macOS)\nKEEP THEM RELATIVELY SLIDE-LIKE; THESE ARE NOTES, NOT THE BOOK ITSELF.",
     "crumbs": [
       "ADaM",
-      "ADAE"
+      "ADSL"
     ]
   },
   {
-    "objectID": "slides/ADAE.html#slide-1",
-    "href": "slides/ADAE.html#slide-1",
-    "title": "ADAE",
+    "objectID": "slides/ADSL.html#slide-1",
+    "href": "slides/ADSL.html#slide-1",
+    "title": "ADSL",
     "section": "SLIDE",
     "text": "SLIDE",
     "crumbs": [
       "ADaM",
-      "ADAE"
+      "ADSL"
     ]
   },
   {
-    "objectID": "slides/ADAE.html#slide-2",
-    "href": "slides/ADAE.html#slide-2",
-    "title": "ADAE",
+    "objectID": "slides/ADSL.html#slide-2",
+    "href": "slides/ADSL.html#slide-2",
+    "title": "ADSL",
     "section": "SLIDE",
     "text": "SLIDE",
     "crumbs": [
       "ADaM",
-      "ADAE"
+      "ADSL"
     ]
   },
   {
-    "objectID": "slides/ADAE.html#slide-3",
-    "href": "slides/ADAE.html#slide-3",
-    "title": "ADAE",
+    "objectID": "slides/ADSL.html#slide-3",
+    "href": "slides/ADSL.html#slide-3",
+    "title": "ADSL",
     "section": "SLIDE",
     "text": "SLIDE",
     "crumbs": [
       "ADaM",
-      "ADAE"
+      "ADSL"
     ]
   },
   {
@@ -392,94 +568,6 @@
     ]
   },
   {
-    "objectID": "slides/teal_applications.html#slide",
-    "href": "slides/teal_applications.html#slide",
-    "title": "teal applications",
-    "section": "SLIDE",
-    "text": "SLIDE\n\nDENOTE MAJOR SECTIONS WITH # TITLE (eg # Installation)\nADD INDIVIDUAL SLIDES WITH ## (eg ## rustup on Linux/macOS)\nKEEP THEM RELATIVELY SLIDE-LIKE; THESE ARE NOTES, NOT THE BOOK ITSELF.",
-    "crumbs": [
-      "Interactive",
-      "teal applications"
-    ]
-  },
-  {
-    "objectID": "slides/teal_applications.html#slide-1",
-    "href": "slides/teal_applications.html#slide-1",
-    "title": "teal applications",
-    "section": "SLIDE",
-    "text": "SLIDE",
-    "crumbs": [
-      "Interactive",
-      "teal applications"
-    ]
-  },
-  {
-    "objectID": "slides/teal_applications.html#slide-2",
-    "href": "slides/teal_applications.html#slide-2",
-    "title": "teal applications",
-    "section": "SLIDE",
-    "text": "SLIDE",
-    "crumbs": [
-      "Interactive",
-      "teal applications"
-    ]
-  },
-  {
-    "objectID": "slides/teal_applications.html#slide-3",
-    "href": "slides/teal_applications.html#slide-3",
-    "title": "teal applications",
-    "section": "SLIDE",
-    "text": "SLIDE",
-    "crumbs": [
-      "Interactive",
-      "teal applications"
-    ]
-  },
-  {
-    "objectID": "slides/ADSL.html#slide",
-    "href": "slides/ADSL.html#slide",
-    "title": "ADSL",
-    "section": "SLIDE",
-    "text": "SLIDE\n\nDENOTE MAJOR SECTIONS WITH # TITLE (eg # Installation)\nADD INDIVIDUAL SLIDES WITH ## (eg ## rustup on Linux/macOS)\nKEEP THEM RELATIVELY SLIDE-LIKE; THESE ARE NOTES, NOT THE BOOK ITSELF.",
-    "crumbs": [
-      "ADaM",
-      "ADSL"
-    ]
-  },
-  {
-    "objectID": "slides/ADSL.html#slide-1",
-    "href": "slides/ADSL.html#slide-1",
-    "title": "ADSL",
-    "section": "SLIDE",
-    "text": "SLIDE",
-    "crumbs": [
-      "ADaM",
-      "ADSL"
-    ]
-  },
-  {
-    "objectID": "slides/ADSL.html#slide-2",
-    "href": "slides/ADSL.html#slide-2",
-    "title": "ADSL",
-    "section": "SLIDE",
-    "text": "SLIDE",
-    "crumbs": [
-      "ADaM",
-      "ADSL"
-    ]
-  },
-  {
-    "objectID": "slides/ADSL.html#slide-3",
-    "href": "slides/ADSL.html#slide-3",
-    "title": "ADSL",
-    "section": "SLIDE",
-    "text": "SLIDE",
-    "crumbs": [
-      "ADaM",
-      "ADSL"
-    ]
-  },
-  {
     "objectID": "slides/difference_betweens_logs.html#slide",
     "href": "slides/difference_betweens_logs.html#slide",
     "title": "The Difference Between logr, logrx, and whirl",
@@ -521,94 +609,6 @@
     "crumbs": [
       "Logs",
       "The Difference Between logr, logrx, and whirl"
-    ]
-  },
-  {
-    "objectID": "slides/running_examples.html#slide",
-    "href": "slides/running_examples.html#slide",
-    "title": "Running Examples",
-    "section": "SLIDE",
-    "text": "SLIDE\n\nDENOTE MAJOR SECTIONS WITH # TITLE (eg # Installation)\nADD INDIVIDUAL SLIDES WITH ## (eg ## rustup on Linux/macOS)\nKEEP THEM RELATIVELY SLIDE-LIKE; THESE ARE NOTES, NOT THE BOOK ITSELF.",
-    "crumbs": [
-      "Introduction",
-      "Running Examples"
-    ]
-  },
-  {
-    "objectID": "slides/running_examples.html#slide-1",
-    "href": "slides/running_examples.html#slide-1",
-    "title": "Running Examples",
-    "section": "SLIDE",
-    "text": "SLIDE",
-    "crumbs": [
-      "Introduction",
-      "Running Examples"
-    ]
-  },
-  {
-    "objectID": "slides/running_examples.html#slide-2",
-    "href": "slides/running_examples.html#slide-2",
-    "title": "Running Examples",
-    "section": "SLIDE",
-    "text": "SLIDE",
-    "crumbs": [
-      "Introduction",
-      "Running Examples"
-    ]
-  },
-  {
-    "objectID": "slides/running_examples.html#slide-3",
-    "href": "slides/running_examples.html#slide-3",
-    "title": "Running Examples",
-    "section": "SLIDE",
-    "text": "SLIDE",
-    "crumbs": [
-      "Introduction",
-      "Running Examples"
-    ]
-  },
-  {
-    "objectID": "slides/demographic_table.html#slide",
-    "href": "slides/demographic_table.html#slide",
-    "title": "Demographic Table",
-    "section": "SLIDE",
-    "text": "SLIDE\n\nDENOTE MAJOR SECTIONS WITH # TITLE (eg # Installation)\nADD INDIVIDUAL SLIDES WITH ## (eg ## rustup on Linux/macOS)\nKEEP THEM RELATIVELY SLIDE-LIKE; THESE ARE NOTES, NOT THE BOOK ITSELF.",
-    "crumbs": [
-      "TLG",
-      "Demographic Table"
-    ]
-  },
-  {
-    "objectID": "slides/demographic_table.html#slide-1",
-    "href": "slides/demographic_table.html#slide-1",
-    "title": "Demographic Table",
-    "section": "SLIDE",
-    "text": "SLIDE",
-    "crumbs": [
-      "TLG",
-      "Demographic Table"
-    ]
-  },
-  {
-    "objectID": "slides/demographic_table.html#slide-2",
-    "href": "slides/demographic_table.html#slide-2",
-    "title": "Demographic Table",
-    "section": "SLIDE",
-    "text": "SLIDE",
-    "crumbs": [
-      "TLG",
-      "Demographic Table"
-    ]
-  },
-  {
-    "objectID": "slides/demographic_table.html#slide-3",
-    "href": "slides/demographic_table.html#slide-3",
-    "title": "Demographic Table",
-    "section": "SLIDE",
-    "text": "SLIDE",
-    "crumbs": [
-      "TLG",
-      "Demographic Table"
     ]
   }
 ]
