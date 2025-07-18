@@ -1,0 +1,121 @@
+---
+engine: knitr
+title: "ADVS"
+---
+
+# What is BDS?
+
+- **BDS** = Basic Data Structure
+- A flexible ADaM format used for most subject-level analysis datasets
+- Key features:
+  - One record per subject, parameter, and timepoint
+  - Standardized variables: `PARAMCD`, `AVAL`, `ADY`, `TRTP`, etc.
+  - Derived from SDTM + ADSL
+
+
+# Structure
+
+-   ADSL variables (Expand ds.)
+
+-   Variables kept from SDTM (Dont update values.)
+
+-   Common BDS variable (Expand ds. Sometimes Imputations.)
+
+    -   TRTA/P
+
+    -   AVISIT
+
+    -   PARAM
+
+    -   PARAMCD
+
+    -   AVAL/AVALC
+
+    -   BASE
+
+    -   CHG
+
+    -   ADT
+
+    -   ADTM
+
+    -   ABLFL
+
+# Observations
+
+-   Observed values: SDTM data not modified.
+
+-   Derived values: Created through calculations of observed values.
+
+-   Imputed values: Observed values that have missing portions. These missing portions are supplemented with additional data.
+
+# Updating structure
+
+-   A BDS data set can be expanded horizontally with additional derived parameters and vertically with additional analysis variables. 
+
+# ADVS
+
+***Vital signs***: parameters related to physiological measurements collected during a clinical trial.
+
+***Examples of Measurements***:
+
+-   Blood pressure (systolic/diastolic)
+
+-   Heart/pulse rate
+
+-   Body temperature
+
+-   Respiratory rate
+
+-   Height
+
+-   Weight
+
+-   Body mass index (BMI)
+
+# Mock Table
+
++-----------+--------------------+------------+------------+----------+----------+
+| Parameter |                    | Statistics | Xanomeline | Placebo  | P-value  |
+|           |                    |            |            |          |          |
+|           |                    |            | High Dose  |          |          |
++===========+====================+============+============+==========+==========+
+| Weight    | Baseline           |            |            |          |          |
++-----------+--------------------+------------+------------+----------+----------+
+|           | Week 4             |            |            |          |          |
++-----------+--------------------+------------+------------+----------+----------+
+|           | Week 8             |            |            |          |          |
++-----------+--------------------+------------+------------+----------+----------+
+|           | Week 12            |            |            |          |          |
++-----------+--------------------+------------+------------+----------+----------+
+|           | Week 16            |            |            |          |          |
++-----------+--------------------+------------+------------+----------+----------+
+|           | Week 20            |            |            |          |          |
++-----------+--------------------+------------+------------+----------+----------+
+|           | Week 24            |            |            |          |          |
++-----------+--------------------+------------+------------+----------+----------+
+|           | Week 24 - baseline |            |            |          |          |
++-----------+--------------------+------------+------------+----------+----------+
+
+N = number of subjects in analysis population, n = number of subjects with non-missing observations, nmiss = number of subjects with missing observations, SD = standard deviation, CI = confidence interval, Q1 = first quartile, Q3 = third quartile, Min = minimum, Max = maximum
+
+
+# Hands-On Workshop: BDS – Findings
+
+We will derive a BDS Findings dataset using `{admiral}`.
+
+Link: [https://pharmaverse.github.io/admiral/articles/bds_finding.html](https://pharmaverse.github.io/admiral/articles/bds_finding.html)
+
+Key steps:
+- Read SDTM data
+- Derive `ADT`, `ADY`
+- Assign `PARAMCD`, `PARAM`
+- Derive `AVAL`, `BASE`, `CHG`, etc.
+- Merge with ADSL
+- Add labels and attributes
+
+Repository: [GitHub Code](https://github.com/pharmaverse/admiral/blob/main/vignettes/bds_finding.Rmd)
+
+See recording for the Demo.
+
+# Questions?
