@@ -6,8 +6,8 @@
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.7.32">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-bc185b5c5bdbcb35c2eb49d8a876ef70.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.7.33">
 
   <title>Pharmaverse Examples Book Club – Demographic Table</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -132,16 +132,62 @@
 </div>
 
 </section>
-<section id="learning-objectives" class="title-slide slide level1 center">
-<h1>Learning objectives</h1>
+<section>
+<section id="introduction" class="title-slide slide level1 center">
+<h1>Introduction</h1>
+
+</section>
+<section id="sdtm" class="slide level2">
+<h2>SDTM</h2>
 <ul>
-<li>THESE ARE NICE TO HAVE BUT NOT ABSOLUTELY NECESSARY</li>
+<li><p>SDTM: a standard for organizing and formatting “raw” data (e.g from paper diaries, or e-diaries)</p></li>
+<li><p>Defines <strong>standard domains</strong></p></li>
+<li><p>Relies on <strong>standardized</strong> variable names, metadata, and controlled terminology</p></li>
+<li><p>Supports the submission of data to regulatory authorities</p></li>
 </ul>
+<p>Created with help of CDISC genius.</p>
+</section>
+<section id="adam" class="slide level2">
+<h2>ADAM</h2>
+<ul>
+<li><p>ADaM: provides a standard framework for derivations for statistical analyses.</p></li>
+<li><p>Promoting: transparency, reproducibility, and regulatory compliance.</p></li>
+<li><p><strong>Traceability</strong>: Clear linkage from analysis results back to source data (often SDTM).</p></li>
+<li><p><strong>Standard structures</strong>: Like ADSL (Subject-Level Analysis Dataset), BDS (Basic Data Structure), and OCCDS (Occurrence Data Structure).</p></li>
+<li><p><strong>Derived variables</strong>: Emphasis on clarity and documentation of derived data used in analysis.</p></li>
+</ul>
+<p>Created with help of CDISC genius.</p>
+</section>
+<section id="adam-1" class="slide level2">
+<h2>ADAM</h2>
+<ul>
+<li><p><strong>Integration with Define-XML</strong>:</p></li>
+<li><p>Enables metadata-driven submissions to regulatory agencies</p></li>
+<li><p>Explains derivation of variables</p></li>
+<li><p>Enables re-creation of derivations &amp; statistical analyses by regulatory authorities</p></li>
+</ul>
+<p>Created with help of CDISC genius.</p>
+</section></section>
+<section>
+<section id="tables-listings-and-graphsfigures-tlgstlfs" class="title-slide slide level1 center">
+<h1>Tables, Listings and Graphs/Figures (TLGs/TLFs)</h1>
+<p>TLFs: Static output generation for Clinical Study Report</p>
+<ul>
+<li>Listings: One proc away (filtering , subsetting etc. ), lay-out</li>
+<li>Tables/ Figures: pre-processing, calculate summary statistics, lay-out (e.g.bars/lines/scatter/ presentation summary statistics) + formatting (e.g titles and footnotes) + export output (e.g.&nbsp;pdf, rtf &amp; html)</li>
+</ul>
+<p>Created with help of CDISC genius.</p>
+</section>
+<section id="tlgs" class="slide level2">
+<h2>TLGs</h2>
+<p>Static outputs are part of the clinical reporting process. They are a vital part to summarise the results of the clinical trial. They can summarise safety, efficacy and exploratory outcomes, e.g.&nbsp;biomarkers, QOL, questionnares etc.</p>
+<p>Safety outputs (medical history, adverse events, and concomitant medications) are pretty much similar and standard outputs that you will see across all clinical trials ( regardless of sponsor/therapeutic area).</p>
+<p>Note. These domain names come from SDTM.</p>
+</section>
+<section id="tlgs-workflow" class="slide level2">
+<h2>TLGs workflow</h2>
 <aside class="notes">
-<ul>
-<li>You can add notes on each slide with blocks like this!</li>
-<li>Load a deck in the browser and type “s” to see these notes.</li>
-</ul>
+<p>ProtocoL: Defines parameters to be analysed SAP: Defines how analyses to be conducted ADAM: Contains all variables and metadata that is required for the production of all outputs TLG: Present analysis results</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -154,33 +200,127 @@
           display:block!important;
       }</style></aside>
 </section>
-
-<section>
-<section id="slide-section" class="title-slide slide level1 center">
-<h1>SLIDE SECTION</h1>
-
-</section>
-<section id="slide" class="slide level2">
-<h2>SLIDE</h2>
+<section id="tlgs-catalogs" class="slide level2">
+<h2>TLGs Catalogs</h2>
+<p>Catalogs with many examples are available here:</p>
 <ul>
-<li>DENOTE MAJOR SECTIONS WITH <code># TITLE</code> (eg <code># Installation</code>)</li>
-<li>ADD INDIVIDUAL SLIDES WITH <code>##</code> (eg <code>## rustup on Linux/macOS</code>)</li>
-<li>KEEP THEM RELATIVELY SLIDE-LIKE; THESE ARE NOTES, NOT THE BOOK ITSELF.</li>
+<li><a href="https://insightsengineering.github.io/tlg-catalog/stable/">TLG Catalog</a></li>
+<li><a href="https://insightsengineering.github.io/biomarker-catalog/stable/tables/">Biomarker Catalog</a></li>
+<li><a href="https://insightsengineering.github.io/teal.gallery/">Teal Gallery</a></li>
 </ul>
-</section>
-<section id="slide-1" class="slide level2">
-<h2>SLIDE</h2>
 </section></section>
 <section>
-<section id="slide-section-1" class="title-slide slide level1 center">
-<h1>SLIDE SECTION</h1>
-
+<section id="demographic-table" class="title-slide slide level1 center">
+<h1>Demographic Table</h1>
+<p><a href="https://insightsengineering.github.io/tlg-catalog/stable/tables/demography/dmt01.html">DMT01</a></p>
 </section>
-<section id="slide-2" class="slide level2">
-<h2>SLIDE</h2>
+<section id="method-1" class="slide level2">
+<h2>Method 1</h2>
+<ul>
+<li>The {cards} package creates Analysis Results Datasets (ARDs, which are a part of the CDISC Analysis Results Standard).</li>
+<li>The {gtsummary} utilizes ARDs to create tables.</li>
+</ul>
 </section>
-<section id="slide-3" class="slide level2">
-<h2>SLIDE</h2>
+<section id="method-2" class="slide level2">
+<h2>Method 2</h2>
+<ul>
+<li><p>NEST Package: A collection of open-sourced R packages:</p>
+<ul>
+<li><p>{rtables}: Foundational layer of the table creation - can create simple to complex table lay outs via nested splitting - in row- and column - space and the specification of analysis functions which will calculate cell values.</p>
+<ul>
+<li><p>Customize tables by defining how to split data into rows and columns, and what calculations to perform in each cell.</p></li>
+<li><p>Provide a framework to create, tabulate and render.</p></li>
+<li><p>Provides a variety of options for table customization.</p></li>
+</ul></li>
+<li><p>{rlistings}: create listings</p></li>
+<li><p>{tern}: Layers analytics from descriptive summaries to more complex statistics on top of the foundational table layouts, analytic and content controls.</p>
+<ul>
+<li><p>Act as wrapper around {rtables} / Reporting layer that sits on top of rtables.</p></li>
+<li><p>Contains analytical functions for creating tables and graphs.</p></li>
+<li><p>Functionalities included: data visualization functions, statistical modelling, analyze functions amongst others.</p></li>
+</ul></li>
+<li><p>{formatters}</p></li>
+<li><p>{teal}</p></li>
+</ul></li>
+<li><p>Other Package:</p>
+<ul>
+<li>GGPLOT2</li>
+</ul></li>
+</ul>
+</section>
+<section id="rtables" class="slide level2">
+<h2>{rtables}</h2>
+<table class="caption-top" style="width:57%;">
+<colgroup>
+<col style="width: 27%">
+<col style="width: 29%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>{rtables} function</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Demographic table</td>
+<td>basic_table()</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>split_cols_by()</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>add_overall_col()</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>show_col_counts()</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>build_table()</td>
+</tr>
+<tr class="even">
+<td></td>
+<td><p>export_as_rtf()/</p>
+<p>export_as_pdf()</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="tern" class="slide level2">
+<h2>{Tern}</h2>
+<table class="caption-top" style="width:71%;">
+<colgroup>
+<col style="width: 27%">
+<col style="width: 43%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>{tern} analyze function</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Demographic table</td>
+<td><p>analyze_vars()</p>
+<p>( before: summarize_vars() )</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="analyze-functions" class="slide level2">
+<h2>Analyze functions</h2>
+<ul>
+<li>.stats: which statistics to be displayed in the ta</li>
+<li>.formats: which value formats should be u</li>
+<li>.labels: which row labels should be used</li>
+<li>.indent_mods: indent modifiers for the labels</li>
+<li>.show_labels: whether variable label(s) should be visible or hidden</li>
+</ul>
 
 
 </section></section>
